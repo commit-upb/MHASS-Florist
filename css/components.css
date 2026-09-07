@@ -1,0 +1,263 @@
+/* ==========================================================================
+   COMPONENTS — Buttons, cards, badges, interactive elements
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+
+.button {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 11px 21px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    transform 0.2s var(--ease-out),
+    background 0.2s var(--ease-out),
+    box-shadow 0.2s var(--ease-out),
+    border-color 0.2s var(--ease-out),
+    color 0.2s var(--ease-out);
+}
+
+.button:hover,
+.button:focus-visible {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button-primary {
+  background: var(--yellow);
+  color: var(--ink);
+  box-shadow: 0 8px 20px rgba(245, 187, 59, 0.18);
+}
+
+.button-primary:hover,
+.button-primary:focus-visible {
+  background: #e9b845;
+  box-shadow: 0 12px 26px rgba(245, 187, 59, 0.3);
+}
+
+.button-text {
+  color: var(--blue);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.button-text span {
+  font-size: 18px;
+}
+
+.button-dark {
+  background: var(--yellow);
+  color: var(--ink);
+  margin-top: 14px;
+}
+
+.button-dark span {
+  font-size: 18px;
+}
+
+/* --------------------------------------------------------------------------
+   Inline Link
+   -------------------------------------------------------------------------- */
+
+.inline-link {
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  margin-top: 15px;
+  font-size: 13px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: inset 0 0 0 1px rgba(16, 43, 76, 0.02);
+  transition:
+    gap 0.25s var(--ease-out),
+    background 0.2s var(--ease-out),
+    transform 0.2s var(--ease-out),
+    box-shadow 0.2s var(--ease-out);
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  gap: 18px;
+  background: var(--cream);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(16, 43, 76, 0.08);
+}
+
+/* --------------------------------------------------------------------------
+   Product Card
+   -------------------------------------------------------------------------- */
+
+.product-card {
+  background: var(--paper);
+  padding-bottom: 18px;
+  box-shadow: var(--shadow-md);
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s var(--ease-out);
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(16, 43, 76, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  aspect-ratio: 1 / 1.08;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 17px 18px 0;
+}
+
+.product-category {
+  text-transform: uppercase;
+  color: var(--blue);
+  letter-spacing: 0.1em;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.product-card h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 22px;
+  margin: 5px 0 13px;
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-button,
+.add-button {
+  min-height: 44px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+  transition:
+    color 0.2s var(--ease-out),
+    background 0.2s var(--ease-out),
+    transform 0.2s var(--ease-out),
+    box-shadow 0.2s var(--ease-out);
+}
+
+.detail-button {
+  background: var(--cream);
+  color: var(--blue);
+}
+
+.detail-button:hover,
+.detail-button:focus-visible {
+  background: #e9eef6;
+  color: var(--blue-dark);
+  transform: translateY(-1px);
+}
+
+.add-button {
+  background: var(--yellow);
+  padding: 8px 15px;
+  color: var(--ink);
+  box-shadow: 0 8px 18px rgba(245, 187, 59, 0.18);
+}
+
+.add-button:hover,
+.add-button:focus-visible {
+  background: #e6ac2e;
+  transform: translateY(-1px);
+}
+
+.detail-button:active,
+.add-button:active,
+.button-primary:active,
+.inline-link:active {
+  transform: translateY(0);
+}
+
+.no-products {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  padding: 30px 0;
+}
+
+/* --------------------------------------------------------------------------
+   Filter Chips
+   -------------------------------------------------------------------------- */
+
+.filter-row {
+  display: flex;
+  gap: 8px;
+  margin: 36px 0 24px;
+  flex-wrap: wrap;
+}
+
+.filter {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--muted);
+  padding: 10px 17px;
+  min-height: 44px;
+  font-size: 14px;
+  transition:
+    border-color 0.2s var(--ease-out),
+    color 0.2s var(--ease-out),
+    background 0.2s var(--ease-out);
+}
+
+.filter:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.filter.active {
+  border-color: var(--blue);
+  color: var(--blue);
+  font-weight: 500;
+}
+
+/* --------------------------------------------------------------------------
+   Cart Badge
+   -------------------------------------------------------------------------- */
+
+.cart-count {
+  display: inline-grid;
+  place-items: center;
+  background: var(--yellow);
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+  width: 22px;
+  height: 22px;
+  margin-left: 4px;
+  color: var(--ink);
+  transition: transform 0.25s var(--ease-spring);
+}
+
+.cart-count.bump {
+  transform: scale(1.25);
+}

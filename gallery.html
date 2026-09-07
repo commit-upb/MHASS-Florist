@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gallery rangkaian bunga dan hadiah dari MHAS Florist."
+    />
+    <title>Gallery | MHAS Florist</title>
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/overlays.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="gallery-page">
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a class="logo" href="index.html" aria-label="Kembali ke beranda MHAS Florist">
+          <span class="logo-mark" aria-hidden="true">&#10047;</span>
+          <span>MHAS <em>Florist</em></span>
+        </a>
+        <a class="button button-text gallery-back-link" href="index.html">
+          &larr; Kembali ke beranda
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="gallery-hero container">
+        <div class="section-kicker">/ gallery</div>
+        <h1>Made to be remembered.</h1>
+        <p>
+          Kumpulan inspirasi rangkaian bunga dan hadiah dari meja MHAS Florist.
+          Klik gambar untuk melihatnya lebih besar.
+        </p>
+      </section>
+
+      <section class="gallery-page-section container" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">/ koleksi visual</div>
+            <h2 id="gallery-title">Dari meja kami</h2>
+          </div>
+          <p class="heading-aside">
+            Foto sementara akan diganti dengan dokumentasi resmi setelah tersedia.
+          </p>
+        </div>
+
+        <div class="gallery-page-grid">
+          <button
+            class="gallery-item gallery-page-item gallery-page-item-wide"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=85"
+            data-alt="Bunga warna-warni yang sedang mekar"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=85"
+              alt="Bunga warna-warni yang sedang mekar"
+              loading="eager"
+            />
+          </button>
+          <button
+            class="gallery-item gallery-page-item"
+            data-image="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85"
+            data-alt="Buket bunga dengan warna lembut"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85"
+              alt="Buket bunga dengan warna lembut"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item gallery-page-item"
+            data-image="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=85"
+            data-alt="Rangkaian bunga sebagai hadiah"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=85"
+              alt="Rangkaian bunga sebagai hadiah"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item gallery-page-item"
+            data-image="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=900&q=85"
+            data-alt="Hampers dengan sentuhan bunga"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=900&q=85"
+              alt="Hampers dengan sentuhan bunga"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item gallery-page-item"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&sat=-20"
+            data-alt="Detail bunga segar berwarna cerah"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&sat=-20"
+              alt="Detail bunga segar berwarna cerah"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item gallery-page-item"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&flip=h"
+            data-alt="Bunga segar untuk inspirasi rangkaian"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&flip=h"
+              alt="Bunga segar untuk inspirasi rangkaian"
+              loading="lazy"
+            />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" aria-hidden="true">
+      <button type="button" data-close-lightbox aria-label="Tutup galeri">
+        &times;
+      </button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="config.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>

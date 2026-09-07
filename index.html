@@ -1,44 +1,592 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="logo">
-            MHASS Florist
-        </div>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MHAS Florist, bunga dan hadiah untuk momen yang berarti."
+    />
+    <title>MHAS Florist | Bunga untuk Momen Berarti</title>
 
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Gallery</li>
-            <li>Rewievs</li>
-            <li>FAQ</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/overlays.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a class="logo" href="#home" aria-label="MHAS Florist, kembali ke beranda">
+          <span class="logo-mark" aria-hidden="true">&#10047;</span>
+          <span>MHAS <em>Florist</em></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Buka menu"
+        >
+          <span class="menu-toggle-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <div class="nav-menu" id="main-menu">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+          <a href="#location">Location</a>
+          <button class="cart-button" type="button" data-open-cart aria-label="Buka keranjang">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </header>
 
     <main>
-        <div class="hero-left">
-            <h1>Technical Trust in Every Petal</h1>
-            <p>Experience the perfect intersection of precise logistics and
-            vibrant, organic beauty. Azure Bloom delivers meticulously
-            curated floral arrangements with absolute reliability, elevating
-            the standard for premium gifting.</p>
-            <div class="hero-button">
-                <div class="button">Shop Our Collection</div>
-                <div class="button">Chat on WhatsApp</div>
-            </div>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-copy container">
+          <p class="eyebrow">Bunga, hadiah, dan cerita kecil</p>
+          <h1>Flowers that say<br /><span>what words can't.</span></h1>
+          <p class="hero-text">
+            Rangkaian bunga untuk hari yang ingin kamu ingat. Pilih yang sudah
+            tersedia atau ceritakan ide kamu, kami bantu merangkainya.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#products">Shop Our Collection</a>
+            <a class="button button-text" href="#contact">
+              Chat on WhatsApp <span aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line"></span>
+            <span>Dirangkai dengan perhatian di Pejagoan</span>
+          </div>
         </div>
-        <div class="hero-right">
-            <img src="" alt="">
+        <div class="hero-image-wrap">
+          <div class="hero-image-frame">
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1100&q=85"
+              alt="Buket bunga warna-warni dalam vas putih"
+            />
+          </div>
+          <div class="hero-stamp" aria-hidden="true">
+            <span>made with</span>
+            <strong>care</strong>
+            <span>for your day</span>
+          </div>
+          <p class="image-caption">Fresh blooms / arrangement 01</p>
         </div>
+      </section>
 
-        
+      <!-- Services -->
+      <section class="service-strip" aria-label="Layanan MHAS Florist">
+        <div class="container service-grid">
+          <div>
+            <span class="service-number">01</span>
+            <h2>Fresh Flowers</h2>
+            <p>Bunga segar untuk momen yang terasa dekat.</p>
+          </div>
+          <div>
+            <span class="service-number">02</span>
+            <h2>Custom Design</h2>
+            <p>Rangkaian yang dibuat mengikuti ceritamu.</p>
+          </div>
+          <div>
+            <span class="service-number">03</span>
+            <h2>Fast Delivery</h2>
+            <p>Atur pengantaran bersama kami melalui WhatsApp.</p>
+          </div>
+          <div>
+            <span class="service-number">04</span>
+            <h2>Quality Service</h2>
+            <p>Kami bantu memilih sampai pesanan siap.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="section-kicker">/ 01: cerita kami</div>
+          <div class="about-layout">
+            <div class="about-copy">
+              <h2>Bunga kecil,<br /><em>rasa yang tinggal.</em></h2>
+              <p class="lead">
+                MHAS Florist hadir untuk membantu kamu menyampaikan perhatian
+                lewat bunga dan hadiah.
+              </p>
+              <p>
+                Informasi cerita usaha, visi, misi, dan nilai MHAS Florist akan
+                dilengkapi dari sumber resmi pemilik.
+              </p>
+              <a class="inline-link" href="mhas.html">
+                Kenali MHAS Florist <span aria-hidden="true">&#8599;</span>
+              </a>
+            </div>
+            <figure class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1566406138386-e082f4bb67e4?auto=format&fit=crop&w=900&q=85"
+                alt="Rangkaian bunga segar warna-warni"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section class="products-section" id="products">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="section-kicker">/ 02: pilih untuk mereka</div>
+              <h2>Our collection</h2>
+            </div>
+            <a class="button button-primary inline-link" href="gallery.html">
+              View all <span aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+          <div class="filter-row" role="group" aria-label="Filter kategori produk">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="Buket">Buket</button>
+            <button class="filter" data-filter="Gift Box">Gift Box</button>
+            <button class="filter" data-filter="Hampers">Hampers</button>
+          </div>
+          <div class="product-grid" id="product-grid"></div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery-section container" id="gallery">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">/ 03: dari meja kami</div>
+            <h2>Made to be remembered</h2>
+          </div>
+          <p class="heading-aside">
+            Inspirasi rangkaian untuk hari biasa yang ingin terasa istimewa.
+          </p>
+        </div>
+        <div class="gallery-preview" aria-label="Preview gallery MHAS Florist">
+          <div class="gallery-track">
+          <button
+            class="gallery-item gallery-tall"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85"
+            data-alt="Bunga warna-warni yang sedang mekar"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85"
+              alt="Bunga warna-warni yang sedang mekar"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&sat=-20"
+            data-alt="Detail bunga segar berwarna cerah"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&sat=-20"
+              alt="Detail bunga segar berwarna cerah"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&flip=h"
+            data-alt="Bunga segar untuk inspirasi rangkaian"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85&flip=h"
+              alt="Bunga segar untuk inspirasi rangkaian"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85"
+            data-alt="Buket bunga dengan warna lembut"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=85"
+              alt="Buket bunga dengan warna lembut"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=85"
+            data-alt="Rangkaian bunga sebagai hadiah"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=85"
+              alt="Rangkaian bunga sebagai hadiah"
+              loading="lazy"
+            />
+          </button>
+          <button
+            class="gallery-item"
+            data-image="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=900&q=85"
+            data-alt="Hampers dengan sentuhan bunga"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1455582916367-25f75bfc6710?auto=format&fit=crop&w=900&q=85"
+              alt="Hampers dengan sentuhan bunga"
+              loading="lazy"
+            />
+          </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section class="review-section" id="reviews">
+        <div class="container">
+          <div class="review-head">
+            <div>
+              <div class="section-kicker">/ 04: kata mereka</div>
+              <h2>Kata mereka<br /><em>di Google Maps.</em></h2>
+            </div>
+            <div class="rating-summary">
+              <span class="rating-stars" aria-hidden="true"
+                >&#9733;&#9733;&#9733;&#9733;&#9734;</span
+              >
+              <strong>4.0</strong>
+              <span>dari 27 ulasan di Google Maps</span>
+            </div>
+          </div>
+          <div class="review-cards">
+            <article class="review-card">
+              <header>
+                <strong class="review-author">Atik Mudrikah</strong>
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>
+                Toko buket paling murah di kebumen. Recommended banget guys,
+                pelayanannya ramah. Pokoknya gak nyesel beli disini&#x1F617;
+                Bisa dijadikan langganan dan reseller juga lho &#x1F606;
+              </p>
+              <time datetime="2025-11">9 bulan lalu</time>
+            </article>
+            <article class="review-card">
+              <header>
+                <strong class="review-author">Cici Nurohmah</strong>
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>
+                Rekomendasi banget beli buket disini harganya murce. Kalo emang
+                pengin cepet mending pesen dulu lewat ig/wa jadi kesini tinggal
+                ngambil. Tapi kalo mau lama lama disini bisa si, tapi nanti bisa
+                kalap&#x1F62D;&#x1F62D;
+              </p>
+              <time datetime="2025">setahun lalu</time>
+            </article>
+            <article class="review-card">
+              <header>
+                <strong class="review-author">Adhinda Mawaddah</strong>
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>
+                Toko bouquet paling murah di Kebumen, pelayanan nya cepat,
+                sesuai request&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;
+              </p>
+              <time datetime="2025">setahun lalu</time>
+            </article>
+            <article class="review-card">
+              <header>
+                <strong class="review-author">Trio Purwoko</strong>
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>
+                Pelayanan memuaskan, admin ramah, harga bersaing. Sukses selalu
+                MHAS Florist. Oh ya selain Florist disini juga bisa jual beli
+                dan servis laptop, rekomended banget pokoknya
+              </p>
+              <time datetime="2025">setahun lalu</time>
+            </article>
+            <article class="review-card">
+              <header>
+                <strong class="review-author"
+                  >Indah Indah Ruwahna Anugraheni</strong
+                >
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>Buketnya sangat murah dan bagus&rdquo; ,,harga pelajar</p>
+              <time datetime="2025">setahun lalu</time>
+            </article>
+            <article class="review-card">
+              <header>
+                <strong class="review-author">Dila Kusuma</strong>
+                <span class="review-stars" aria-label="5 dari 5 bintang"
+                  >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                >
+              </header>
+              <p>harganya terjangkau pelayanan baikk tencu min next order lagii</p>
+              <time datetime="2025">setahun lalu</time>
+            </article>
+          </div>
+          <div class="review-more">
+            <a
+              class="inline-link"
+              href="https://maps.app.goo.gl/CeEmSMFEKCqRWvQY6"
+              target="_blank"
+              rel="noopener"
+            >
+              Lihat ulasan lainnya di Google Maps
+              <span aria-hidden="true">&#8599;</span>
+            </a>
+            <a
+              class="inline-link"
+              href="https://www.tiktok.com/@kebumenbikinlaper/video/7668212233926708501"
+              target="_blank"
+              rel="noopener"
+            >
+              Lihat review video di TikTok <span aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq-section container" id="faq">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">/ 05: pertanyaan</div>
+            <h2>Before you order</h2>
+          </div>
+          <p class="heading-aside">
+            Belum menemukan jawaban? Hubungi kami dan kita bicarakan.
+          </p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Apakah bisa request rangkaian custom?<span>+</span></summary>
+            <p>
+              Bisa. Ceritakan warna, ukuran, dan suasana yang kamu inginkan
+              melalui WhatsApp.
+            </p>
+          </details>
+          <details>
+            <summary>Bagaimana cara memesan?<span>+</span></summary>
+            <p>
+              Pilih rangkaian, masukkan ke cart, lalu kirim ringkasan pesanan
+              melalui WhatsApp untuk konfirmasi.
+            </p>
+          </details>
+          <details>
+            <summary>Apakah tersedia pengantaran?<span>+</span></summary>
+            <p>
+              Detail area dan jadwal pengantaran dikonfirmasi langsung oleh MHAS
+              Florist.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Location -->
+      <section class="location-section" id="location">
+        <div class="container location-layout">
+          <div>
+            <div class="section-kicker">/ 06: kunjungi kami</div>
+            <h2>Dari mana kami merangkai.</h2>
+            <p class="lead">
+              Jika sedang lewat, datang langsung. Untuk arahan ke lokasi, buka
+              peta kami di Google Maps.
+            </p>
+            <p class="location-address">
+              Jl. Ronggowarsito, Legok Kidul, Pejagoan, Kec. Pejagoan,
+              Kabupaten Kebumen, Jawa Tengah 54361
+            </p>
+            <p class="location-meta">
+              Jam buka: Buka &middot; Tutup pukul 21.00<br />
+              Telepon/WhatsApp: 0895-1057-4048
+            </p>
+            <a
+              class="button button-primary"
+              href="https://maps.app.goo.gl/CeEmSMFEKCqRWvQY6"
+              target="_blank"
+              rel="noopener"
+            >
+              Open in Google Maps <span aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+          <div class="location-map-wrap">
+            <iframe
+              class="location-map"
+              src="https://www.google.com/maps?q=Jl.%20Ronggowarsito%2C%20Legok%20Kidul%2C%20Pejagoan%2C%20Kebumen%2C%20Jawa%20Tengah%2054361&output=embed"
+              title="Peta lokasi MHAS Florist di Pejagoan, Kebumen"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <div class="container contact-layout">
+          <div>
+            <div class="section-kicker">/ 07: mari bicara</div>
+            <h2>Have something<br /><em>in mind?</em></h2>
+          </div>
+          <div>
+            <p class="lead">
+              Ceritakan momenmu. Kami akan bantu memilih bunga atau hadiah yang
+              pas.
+            </p>
+            <a
+              class="button button-dark"
+              href="https://wa.me/6289510574048"
+              target="_blank"
+              rel="noopener"
+            >
+              Chat on WhatsApp <span aria-hidden="true">&#8599;</span>
+            </a>
+            <p class="contact-detail">
+              WhatsApp: 0895-1057-4048<br />Instagram: @mhasflorist_kebumen
+            </p>
+            <div class="contact-social">
+              <a
+                class="social-link social-instagram"
+                href="https://www.instagram.com/mhasflorist_kebumen"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <circle cx="17.5" cy="6.5" r="1.2"></circle>
+                  </svg>
+                </span>
+                <span>Instagram</span>
+              </a>
+              <a
+                class="social-link social-shopee"
+                href="https://id.shp.ee/eKYm54k"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                    <path d="M8 8V7.5A4 4 0 0 1 12 3.5A4 4 0 0 1 16 7.5V8"></path>
+                    <path d="M6 8H18L17 18.5A2.5 2.5 0 0 1 14.5 21H9.5A2.5 2.5 0 0 1 7 18.5L6 8Z"></path>
+                    <path d="M9.5 11.5C10.6 12.4 11.1 12.9 12 12.9C12.9 12.9 13.5 12.3 14.5 11.5"></path>
+                  </svg>
+                </span>
+                <span>Shopee</span>
+              </a>
+              <a
+                class="social-link social-threads"
+                href="https://www.threads.com/@mhasflorist_kebumen"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                    <path d="M14.5 4.5c-1.8 0-3.4.7-4.5 1.9-1.2 1.3-1.8 2.9-1.8 4.7 0 2.4.9 4.3 2.7 5.6 1.5 1.1 3.3 1.5 5.1 1.3 1.8-.2 3.4-1 4.5-2.4.6-.8.9-1.7.9-2.7 0-1.7-.8-3.1-2.2-4.1-1.2-1-2.8-1.5-4.7-1.5Zm.7 2.1c1.4 0 2.6.5 3.4 1.4.7.8 1 1.8 1 2.7 0 .9-.3 1.8-.9 2.6-.8.9-2 1.4-3.5 1.6-1.7.2-3.2-.1-4.3-1-.8-.7-1.2-1.7-1.2-2.9 0-1.3.5-2.5 1.6-3.5 1-.8 2.3-1.2 4-1.2Z"></path>
+                    <path d="M15.1 8.8c-1.1-.1-2.3.2-3.2 1-.7.6-1.1 1.5-1.1 2.7 0 1.4.8 2.4 2 2.9.9.4 2.1.5 3.2.2 1.2-.3 2-1 2.5-2.1.2-.5.4-1.1.4-1.7 0-.6-.2-1.2-.4-1.7-.6-1.3-1.7-2.2-3.4-2.3Z"></path>
+                  </svg>
+                </span>
+                <span>Threads</span>
+              </a>
+              <a
+                class="social-link social-whatsapp"
+                href="https://wa.me/6289510574048"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="social-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                    <path d="M20.5 12.2A8.4 8.4 0 0 1 12 20.5c-1.6 0-3.1-.4-4.5-1.2L3.5 20l1-4.4A8.4 8.4 0 1 1 20.5 12.2Z"></path>
+                    <path d="M15.7 14.4c-.2-.1-1.3-.7-1.5-.8-.2-.1-.4-.1-.5.1-.1.2-.4.8-.5 1-.1.1-.2.2-.4.1-.2-.1-.8-.3-1.5-.9-.5-.5-.9-1.1-.9-1.3 0-.2.1-.3.2-.4.1-.1.2-.2.3-.3.1-.1.1-.2.2-.3.1-.1.1-.2.1-.3 0-.1 0-.2-.1-.3-.1-.1-.5-1.3-.7-1.8-.2-.5-.3-.4-.5-.4h-.5c-.2 0-.5.1-.7.4-.2.3-.8.8-.8 2s.9 2.3.9 2.5c.1.2 1.8 2.9 4.4 4.1.6.3 1.2.5 1.6.6.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.8-1.2.3-.6.3-1.1.2-1.2-.1-.1-.2-.1-.4-.2Z"></path>
+                  </svg>
+                </span>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="logo" href="#home">
+          <span class="logo-mark" aria-hidden="true">&#10047;</span>
+          <span>MHAS <em>Florist</em></span>
+        </a>
+        <p>Flowers for the moments that matter.</p>
+        <a href="#home" class="back-top">Back to top &#8593;</a>
+      </div>
+    </footer>
+
+    <!-- Cart Drawer -->
+    <aside class="cart-drawer" aria-hidden="true" aria-labelledby="cart-title">
+      <div class="drawer-head">
+        <h2 id="cart-title">Your cart</h2>
+        <button type="button" data-close-cart aria-label="Tutup keranjang">Close</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total</span>
+          <strong class="total-value">Harga dikonfirmasi</strong>
+        </div>
+        <a class="button button-primary order-button" href="#contact">Order via WhatsApp</a>
+      </div>
+    </aside>
+    <div class="drawer-overlay" data-close-cart></div>
+
+    <!-- Product Dialog -->
+    <dialog class="product-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="Tutup detail">&times;</button>
+      <div class="dialog-content">
+        <img id="dialog-image" src="" alt="" />
+        <div>
+          <div class="section-kicker">Detail produk</div>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-description"></p>
+          <p class="dialog-price">Harga dikonfirmasi via WhatsApp</p>
+          <button class="button button-primary" id="dialog-add" type="button">Add to Cart</button>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- Lightbox -->
+    <div class="lightbox" aria-hidden="true">
+      <button type="button" data-close-lightbox aria-label="Tutup galeri">&times;</button>
+      <img src="" alt="" />
+    </div>
+
+    <!-- Scripts (order matters) -->
+    <script src="config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

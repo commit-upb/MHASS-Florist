@@ -1,0 +1,105 @@
+/* ==========================================================================
+   DESCRIPTION PAGE — Product detail layout for standalone product page
+   ========================================================================== */
+
+.detail-page {
+  padding: 72px 0 96px;
+}
+
+.detail-topbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 32px;
+}
+
+.detail-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(24px, 5vw, 58px);
+  align-items: center;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.detail-image-panel {
+  background: var(--cream);
+}
+
+.detail-image-panel img {
+  width: 100%;
+  height: min(70vh, 620px);
+  object-fit: cover;
+}
+
+.detail-copy {
+  padding: 28px 28px 32px;
+}
+
+.detail-copy h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin: 12px 0 14px;
+}
+
+.detail-price {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.detail-description {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 26px;
+}
+
+.detail-empty {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.detail-empty h1 {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 12px;
+}
+
+.detail-empty p {
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+@media (max-width: 760px) {
+  .detail-page {
+    padding-top: 48px;
+  }
+
+  .detail-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-image-panel img {
+    height: 420px;
+  }
+
+  .detail-copy {
+    padding: 24px 20px 28px;
+  }
+}

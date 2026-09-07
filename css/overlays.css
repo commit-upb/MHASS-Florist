@@ -1,0 +1,291 @@
+/* ==========================================================================
+   OVERLAYS — Cart drawer, product dialog, lightbox
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Cart Drawer
+   -------------------------------------------------------------------------- */
+
+.cart-drawer {
+  position: fixed;
+  z-index: var(--z-drawer);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: min(400px, 100%);
+  padding: 30px;
+  background: var(--paper);
+  transform: translateX(100%);
+  transition: transform 0.3s var(--ease-out);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-drawer);
+}
+
+.cart-drawer.is-open {
+  transform: translateX(0);
+}
+
+/* Drawer Overlay */
+.drawer-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  background: rgba(11, 53, 105, 0.3);
+}
+
+.drawer-overlay.is-open {
+  display: block;
+}
+
+/* Drawer Header */
+.drawer-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 18px;
+}
+
+.drawer-head h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+}
+
+.drawer-head button,
+.dialog-close,
+.lightbox > button {
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font-size: 16px;
+  padding: 4px;
+  transition: opacity 0.2s var(--ease-out);
+}
+
+.drawer-head button:hover,
+.dialog-close:hover,
+.lightbox > button:hover {
+  opacity: 0.65;
+}
+
+/* Cart Items */
+.cart-items {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.cart-items::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cart-items::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.cart-items::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 3px;
+}
+
+.empty-cart {
+  color: var(--muted);
+  font-size: 13px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+
+.cart-item img {
+  width: 64px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.cart-item h3 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.cart-item p {
+  color: var(--muted);
+  margin: 3px 0;
+  font-size: 11px;
+}
+
+/* Quantity Controls */
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 6px;
+}
+
+.qty-controls button {
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  transition:
+    border-color 0.2s var(--ease-out),
+    background 0.2s var(--ease-out);
+}
+
+.qty-controls button:hover {
+  border-color: var(--blue);
+  background: var(--cream);
+}
+
+.qty-controls span {
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 20px;
+  text-align: center;
+}
+
+.remove-item {
+  border: 0;
+  background: none;
+  color: #a95151;
+  font-size: 11px;
+  margin-top: 5px;
+  transition: opacity 0.2s var(--ease-out);
+}
+
+.remove-item:hover {
+  opacity: 0.65;
+}
+
+/* Cart Footer */
+.cart-footer {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.order-button {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   Product Dialog (native <dialog>)
+   -------------------------------------------------------------------------- */
+
+.product-dialog {
+  border: 0;
+  padding: 0;
+  width: min(720px, calc(100% - 32px));
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-md);
+}
+
+.product-dialog::backdrop {
+  background: rgba(11, 53, 105, 0.45);
+}
+
+.dialog-close {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  font-size: 25px;
+  z-index: 1;
+  line-height: 1;
+}
+
+.dialog-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dialog-content img {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+}
+
+.dialog-content > div {
+  padding: 50px 35px;
+  align-self: center;
+}
+
+.dialog-content .section-kicker {
+  margin-bottom: 4px;
+}
+
+.dialog-content h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 32px;
+  margin: 16px 0;
+}
+
+.dialog-content p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.dialog-price {
+  color: var(--blue) !important;
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+/* --------------------------------------------------------------------------
+   Lightbox
+   -------------------------------------------------------------------------- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-lightbox);
+  background: rgba(11, 53, 105, 0.9);
+  display: none;
+  place-items: center;
+  padding: 30px;
+}
+
+.lightbox.is-open {
+  display: grid;
+}
+
+.lightbox img {
+  max-width: min(900px, 100%);
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.lightbox > button {
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  color: white;
+  font-size: 32px;
+}

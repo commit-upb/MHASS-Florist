@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Detail produk MHAS Florist. Lihat rangkaian bunga dan pesan sesuai kebutuhan."
+    />
+    <title>Detail Produk | MHAS Florist</title>
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/overlays.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/description.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a class="logo" href="index.html" aria-label="Kembali ke halaman utama">
+          <span class="logo-mark" aria-hidden="true">&#10047;</span>
+          <span>MHAS <em>Florist</em></span>
+        </a>
+        <div class="nav-menu" id="main-menu">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#products">Products</a>
+          <a href="index.html#gallery">Gallery</a>
+          <a href="index.html#contact">Contact</a>
+          <button class="cart-button" type="button" data-open-cart aria-label="Buka keranjang">
+            Cart <span class="cart-count">0</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="detail-page container" aria-live="polite">
+        <div class="detail-topbar">
+          <a class="button button-primary" href="index.html">Back to collection</a>
+        </div>
+        <div id="product-detail" class="product-detail"></div>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" aria-hidden="true" aria-labelledby="cart-title">
+      <div class="drawer-head">
+        <h2 id="cart-title">Your cart</h2>
+        <button type="button" data-close-cart aria-label="Tutup keranjang">Close</button>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total</span>
+          <strong class="total-value">Harga dikonfirmasi</strong>
+        </div>
+        <a class="button button-primary order-button" href="#contact">Order via WhatsApp</a>
+      </div>
+    </aside>
+    <div class="drawer-overlay" data-close-cart></div>
+
+    <script src="config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/description.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
