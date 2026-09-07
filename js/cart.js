@@ -53,6 +53,32 @@ const Cart = (() => {
     return "Harga dikonfirmasi";
   }
 
+  function getWhatsAppUrl() {
+    const number =
+      (window.SITE_CONFIG && window.SITE_CONFIG.WHATSAPP_NUMBER) || "6281234567890";
+    const baseMessage =
+      (window.SITE_CONFIG && window.SITE_CONFIG.WHATSAPP_MESSAGE) ||
+      "Halo MHAS Florist, saya ingin memesan:";
+
+    const entries = getEntries();
+
+    if (!entries.length) {
+      return `https://wa.me/${number}?text=${encodeURIComponent(baseMessage)}`;
+    }
+
+    const lines = entries.map(([id, qty]) => {
+      const product = PRODUCTS.find((p) => p.id === id);
+      return `- ${product ? product.name : id} x${qty}`;
+    });
+
+    const message = `${baseMessage}\n\n${lines.join("\n")}\n\nTotal: ${getCount()} item. Terima kasih.`;
+    return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+  }
+
+  function checkout() {
+    window.open(getWhatsAppUrl(), "_blank", "noreferrer");
+  }
+
   /* Badge animation */
   function bumpBadge() {
     const badge = document.querySelector(".cart-count");
@@ -107,5 +133,5 @@ const Cart = (() => {
 
   load();
 
-  return { getAll, getEntries, getCount, add, update, remove, render, formatPrice };
+  return { getAll, getEntries, getCount, add, update, remove, render, formatPrice, getWhatsAppUrl, checkout };
 })();

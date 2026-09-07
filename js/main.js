@@ -99,6 +99,18 @@
   }
 
   /* --------------------------------------------------------------------------
+     Cart Checkout — Order via WhatsApp
+     -------------------------------------------------------------------------- */
+
+  document.querySelectorAll(".order-button").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      Cart.checkout();
+      UI.closeCart();
+    });
+  });
+
+  /* --------------------------------------------------------------------------
      Mobile Menu Toggle
      -------------------------------------------------------------------------- */
 
