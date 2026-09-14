@@ -1,0 +1,11779 @@
+/* MHAS Florist */
+
+position: relative;
+width: 1440px;
+height: 7418px;
+
+/* bacground */
+background: #EEF3F7;
+
+
+/* ph:flower-fill */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 247px;
+top: 53px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 53px;
+left: -2px;
+top: 0px;
+
+background: #FFFCFC;
+
+
+/* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 567px;
+height: 20px;
+left: 751px;
+top: 16px;
+
+
+
+/* Home */
+
+width: 45px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 43px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* About */
+
+width: 43px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 63px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Products */
+
+width: 63px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 49px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Gallery */
+
+width: 49px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 57px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Reviews */
+
+width: 57px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 29px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* FAQ */
+
+width: 29px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 53px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Location */
+
+width: 53px;
+height: 20px;
+
+font-family: 'Winky Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 10px;
+
+width: 46px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Contact */
+
+width: 46px;
+height: 20px;
+
+font-family: 'Winky Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+color: #2E67A9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione-monotone:shopping-cart */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 1358px;
+top: 18px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 3.13%;
+right: 3.12%;
+top: 3.12%;
+bottom: 3.12%;
+
+background: #2E67A9;
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 810px;
+left: 0px;
+top: 894px;
+
+background: #F7F3E3;
+border: 1px solid #000000;
+
+
+/* poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839 1 */
+
+position: absolute;
+width: 782px;
+height: 668px;
+left: 658px;
+top: 53px;
+
+background: url(poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839.jpg);
+
+
+/* poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839 2 */
+
+position: absolute;
+width: 1434px;
+height: 668px;
+left: 0px;
+top: 54px;
+
+background: url(poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839.jpg);
+opacity: 0.15;
+
+
+/* Our Products */
+
+position: absolute;
+width: 596px;
+height: 74px;
+left: 107px;
+top: 1800px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 65px;
+
+
+
+/* poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839 3 */
+
+position: absolute;
+width: 1440px;
+height: 810px;
+left: 0px;
+top: 894px;
+
+background: url(poppy-flowers-floral-background-yellow-flowers-blossom-3840x2160-5839.jpg);
+opacity: 0.15;
+
+
+/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 62px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 551px;
+height: 409px;
+left: 102px;
+top: 174px;
+
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 65px;
+
+position: absolute;
+width: 551px;
+height: 405px;
+left: 0px;
+top: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 551px;
+height: 295px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 25px;
+
+width: 551px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Beautiful Flowers */
+
+width: 551px;
+height: 44px;
+
+font-family: 'Oleo Script Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Flowers that say what words can’t. */
+
+width: 491px;
+height: 121px;
+
+font-family: 'Gulzar';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 70px;
+/* or 97% */
+letter-spacing: -0.05em;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rangkaian bunga untuk setiap momen spesialmu. Pilih dari beragam koleksi siap kirim favoritmu, atau kreasikan ide bungamu sendiri bersama kami. Kami siap membantu memadukan jenis dan warna bunga yang paling sesuai dengan keinginanmu. */
+
+width: 484px;
+height: 80px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+width: 227px;
+height: 45px;
+
+/* kuning2 */
+background: #FFE76D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Shop Our Collection */
+
+width: 135px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 227px;
+height: 45px;
+left: 257px;
+top: 364px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* basil:whatsapp-solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+/* WhatsApp */
+background: #25D366;
+/* WhatsApp */
+border: 2px solid #25D366;
+
+
+/* Chat on WhatsApp */
+
+width: 126px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* WhatsApp */
+color: #25D366;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+width: 11.93px;
+height: 0px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+transform: rotate(-33.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 15 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 227px;
+height: 45px;
+left: 359px;
+top: 1563px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+border-radius: 20px;
+
+
+/* basil:whatsapp-solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+/* WhatsApp */
+background: #25D366;
+/* WhatsApp */
+border: 2px solid #25D366;
+
+
+/* Chat on WhatsApp */
+
+width: 126px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* WhatsApp */
+color: #25D366;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+width: 11.93px;
+height: 0px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+transform: rotate(-33.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 227px;
+height: 45px;
+left: 102px;
+top: 1562px;
+
+/* blue */
+background: #1556A0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+
+/* View Gallery */
+
+width: 84px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+width: 16.01px;
+height: 0px;
+
+/* putihh */
+border: 1px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* MHAS Florist hadir untuk membantu kamu menyampaikan perhatian lewat bunga dan hadiah dengan berbagai macam buket bunga untuk berbagai momen spesial. */
+
+position: absolute;
+width: 455px;
+height: 60px;
+left: 102px;
+top: 1391px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+
+/* Jelajahi rangkaian yang tersedia, ceritakan kebutuhanmu, atau hubungi kami untuk mendiskusikan pilihan custom. */
+
+position: absolute;
+width: 455px;
+height: 40px;
+left: 102px;
+top: 1483px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+
+/* MHAS Florist adalah toko bunga yang berkomitmen untuk menyediakan rangkaian bunga berkualitas tinggi dengan desain yang elegan dan berkesan. */
+
+position: absolute;
+width: 455px;
+height: 60px;
+left: 102px;
+top: 1293px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+
+
+/* Bunga Kecil, rasa yang tinggal. */
+
+position: absolute;
+width: 318px;
+height: 124px;
+left: 102px;
+top: 1130px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 60px;
+/* or 133% */
+
+
+
+/* MHAS Florist */
+
+position: absolute;
+width: 414px;
+height: 60px;
+left: 102px;
+top: 1016px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 60px;
+/* identical to box height, or 100% */
+
+
+
+/* About Us */
+
+position: absolute;
+width: 551px;
+height: 44px;
+left: 102px;
+top: 939px;
+
+font-family: 'Oleo Script Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 1440px;
+height: 175px;
+left: 0px;
+top: 719px;
+
+/* blue */
+background: #1556A0;
+
+
+/* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 91px;
+
+position: absolute;
+width: 1342px;
+height: 74px;
+left: calc(50% - 1342px/2 + 12px);
+top: 732px;
+
+
+
+/* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 238px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 96px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 01 */
+
+width: 20px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 76px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fresh Flowers */
+
+width: 238px;
+height: 26px;
+
+font-family: 'Orelega One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Bunga segar pilihan yang dirangkai setiap hari untuk melengkapi setiap momen berhargamu. */
+
+position: absolute;
+width: 283px;
+height: 60px;
+left: 10px;
+top: 74px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 128.04px;
+height: 0px;
+left: 324px;
+top: 10px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 238px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 96px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 02 */
+
+width: 20px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 76px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Custom Design */
+
+width: 238px;
+height: 26px;
+
+font-family: 'Orelega One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rangkaian buket yang disesuaikan mengikuti ceritamu. */
+
+position: absolute;
+width: 283px;
+height: 40px;
+left: 10px;
+top: 74px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 128.04px;
+height: 0px;
+left: 324px;
+top: 10px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 23 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 238px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 96px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 03 */
+
+width: 20px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 76px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Fast Delivery */
+
+width: 238px;
+height: 26px;
+
+font-family: 'Orelega One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pengiriman tepat waktu untuk memastikan keindahan bunga hadir di hari spesialmu. */
+
+position: absolute;
+width: 283px;
+height: 40px;
+left: 10px;
+top: 74px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Line 2 */
+
+position: absolute;
+width: 128.04px;
+height: 0px;
+left: 324px;
+top: 10px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(-90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 24 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 19 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 18 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 258px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 238px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 96px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 04 */
+
+width: 20px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 76px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Quality Service */
+
+width: 238px;
+height: 26px;
+
+font-family: 'Orelega One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Kami bantu memilih hingga pesanan siap diantar. */
+
+position: absolute;
+width: 283px;
+height: 40px;
+left: 10px;
+top: 74px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 36px;
+
+width: 248px;
+height: 74px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Line 3 */
+
+position: absolute;
+width: 219.06px;
+height: 0px;
+left: 107px;
+top: 1098px;
+
+
+
+/* Line 5 */
+
+position: absolute;
+width: 219.06px;
+height: 0px;
+left: 107px;
+top: 1374px;
+
+
+
+/* Line 6 */
+
+position: absolute;
+width: 219.06px;
+height: 0px;
+left: 107px;
+top: 1472px;
+
+
+
+/* Line 4 */
+
+position: absolute;
+width: 333.01px;
+height: 0px;
+left: 106.99px;
+top: 1271.22px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 334px;
+top: 1088px;
+
+background: #E8DC35;
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 447px;
+top: 1261px;
+
+background: #E8DC35;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 91px;
+height: 45px;
+left: 110px;
+top: 1964px;
+
+/* blue */
+background: #1556A0;
+border-radius: 20px;
+
+
+/* Rectangle 81 */
+
+position: absolute;
+width: 91px;
+height: 45px;
+left: 102px;
+top: 3234px;
+
+/* blue */
+background: #1556A0;
+border-radius: 20px;
+
+
+/* Rectangle 10 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 45px;
+left: 219px;
+top: 1964px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 82 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 45px;
+left: 211px;
+top: 3234px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Bouquet */
+
+position: absolute;
+width: 81px;
+height: 27px;
+left: 269px;
+top: 1973px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Bouquet */
+
+position: absolute;
+width: 81px;
+height: 27px;
+left: 261px;
+top: 3243px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Rectangle 11 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 178px;
+height: 45px;
+left: 393px;
+top: 1964px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 83 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 178px;
+height: 45px;
+left: 385px;
+top: 3234px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 32 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 220px;
+height: 55px;
+left: 102px;
+top: 6680px;
+
+/* kkuninggg1 */
+background: #F5BB3B;
+border-radius: 27.5px;
+
+
+/* Flowers Box */
+
+position: absolute;
+width: 113px;
+height: 27px;
+left: 444px;
+top: 1973px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Flowers Box */
+
+position: absolute;
+width: 113px;
+height: 27px;
+left: 436px;
+top: 3243px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Rectangle 25 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 151px;
+height: 45px;
+left: 790px;
+top: 1964px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 84 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 151px;
+height: 45px;
+left: 782px;
+top: 3234px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 12 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 171px;
+height: 45px;
+left: 594px;
+top: 1964px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 85 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 171px;
+height: 45px;
+left: 586px;
+top: 3234px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 26 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 133px;
+height: 45px;
+left: 965px;
+top: 1964px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 86 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 133px;
+height: 45px;
+left: 957px;
+top: 3234px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 13 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1438px;
+height: 1248px;
+left: 0px;
+top: 1706px;
+
+/* line */
+border: 1px solid #D9D9D9;
+
+
+/* Gallery */
+
+position: absolute;
+width: 596px;
+height: 74px;
+left: 102px;
+top: 3041px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.1em;
+
+
+
+/* Rectangle 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1438px;
+height: 1152px;
+left: 0px;
+top: 2954px;
+
+/* line */
+border: 1px solid #D9D9D9;
+
+
+/* Rectangle 27 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1438px;
+height: 1006px;
+left: 0px;
+top: 4980px;
+
+/* putihh */
+background: #FFFFFF;
+/* putihh */
+border: 1px solid #FFFFFF;
+
+
+/* Rectangle 29 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1438px;
+height: 821px;
+left: -2px;
+top: 6294px;
+
+/* cream */
+border: 1px solid #F7F5EF;
+
+
+/* FAQ */
+
+position: absolute;
+width: 596px;
+height: 74px;
+left: 102px;
+top: 5067px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.1em;
+
+
+
+/* Before you order */
+
+position: absolute;
+width: 473px;
+height: 60px;
+left: 102px;
+top: 5119px;
+
+font-family: 'Gulzar';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 60px;
+/* identical to box height, or 94% */
+text-transform: capitalize;
+
+
+
+/* Belum menemukan jawaban? Hubungi kami dan kita bicarakan. */
+
+position: absolute;
+width: 613px;
+height: 60px;
+left: 102px;
+top: 5179px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 60px;
+/* identical to box height, or 250% */
+
+color: #000000;
+
+
+
+/* Vector 3 */
+
+position: absolute;
+width: 473px;
+height: 0px;
+left: 102px;
+top: 5179px;
+
+
+
+/* Vector 17 */
+
+position: absolute;
+width: 442px;
+height: 0px;
+left: 102px;
+top: 6243px;
+
+
+
+/* Location */
+
+position: absolute;
+width: 596px;
+height: 74px;
+left: 102px;
+top: 6071px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.1em;
+
+
+
+/* Dari mana kami merangkai. */
+
+position: absolute;
+width: 715px;
+height: 120px;
+left: 102px;
+top: 6123px;
+
+font-family: 'Gulzar';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 60px;
+/* or 94% */
+text-transform: capitalize;
+
+
+
+/* Kami senang mendengar dari Anda */
+
+position: absolute;
+width: 677px;
+height: 49px;
+left: 350px;
+top: 6805px;
+
+font-family: 'Gulzar';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 60px;
+/* or 167% */
+
+
+
+/* Jika sedang lewat, datang langsung. Untuk arahan ke lokasi, buka peta kami di Google Maps. */
+
+position: absolute;
+width: 651px;
+height: 80px;
+left: 102px;
+top: 6294px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+color: #000000;
+
+
+
+/* Jl. Ronggowarsito, Legok Kidul, Pejagoan, Kec. Pejagoan, Kabupaten Kebumen, Jawa Tengah 54361 */
+
+position: absolute;
+width: 620px;
+height: 80px;
+left: 157px;
+top: 6425px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+color: #000000;
+
+
+
+/* Telepon/WhatsApp: 0895-1057-4048 */
+
+position: absolute;
+width: 620px;
+height: 40px;
+left: 157px;
+top: 6573px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+color: #000000;
+
+
+
+/* Jam buka: Buka · Tutup pukul 21.00 */
+
+position: absolute;
+width: 620px;
+height: 40px;
+left: 157px;
+top: 6519px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+color: #000000;
+
+
+
+/* Vector 16 */
+
+position: absolute;
+width: 147px;
+height: 0px;
+left: 129px;
+top: 6446px;
+
+transform: rotate(90deg);
+
+
+/* Vector 4 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5324px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 5 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5480px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 6 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5480px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 13 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5676px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 14 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5775px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 15 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5775px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 10 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5579px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 11 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5676px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 12 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5676px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 7 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5480px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 8 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5579px;
+
+border: 3px solid #8E8E93;
+
+
+/* Vector 9 */
+
+position: absolute;
+width: 943px;
+height: 0px;
+left: 259px;
+top: 5579px;
+
+border: 3px solid #8E8E93;
+
+
+/* Made to be remembered. */
+
+position: absolute;
+width: 701px;
+height: 60px;
+left: 102px;
+top: 3093px;
+
+font-family: 'Gulzar';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 60px;
+/* identical to box height, or 94% */
+text-transform: capitalize;
+
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 104px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 198px;
+height: 281px;
+left: 306px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 510px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 54 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 712px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 55 */
+
+position: absolute;
+width: 198px;
+height: 281px;
+left: 914px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 56 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 1118px;
+top: 3333px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 57 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 103px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 198px;
+height: 281px;
+left: 305px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 509px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 60 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 712px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 61 */
+
+position: absolute;
+width: 198px;
+height: 281px;
+left: 914px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 62 */
+
+position: absolute;
+width: 197px;
+height: 281px;
+left: 1118px;
+top: 3623px;
+
+background: #D9D9D9;
+
+
+/* Inspirasi rangkaian untuk hari biasa yang ingin terasa istimewa. */
+
+position: absolute;
+width: 617px;
+height: 60px;
+left: 107px;
+top: 3151px;
+
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 60px;
+/* identical to box height, or 250% */
+
+color: #000000;
+
+
+
+/* Rectangle 24 */
+
+position: absolute;
+width: 1444px;
+height: 874px;
+left: 0px;
+top: 4106px;
+
+/* kkuninggg1 */
+background: #F5BB3B;
+
+
+/* Pilih rangkaian bunga terbaik untuk setiap momen spesial Anda. Kami menyediakan berbagai pilihhan buket dan hadiah dengan kualitas terbaik. */
+
+position: absolute;
+width: 743px;
+height: 54px;
+left: 110px;
+top: 1874px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* Reviews */
+
+position: absolute;
+width: 152px;
+height: 33px;
+left: 107px;
+top: 4185px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Vector 2 */
+
+position: absolute;
+width: 701px;
+height: 0px;
+left: 102px;
+top: 3153px;
+
+
+
+/* All */
+
+position: absolute;
+width: 23px;
+height: 27px;
+left: 155px;
+top: 1972px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+
+/* All */
+
+position: absolute;
+width: 23px;
+height: 27px;
+left: 147px;
+top: 3242px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+
+/* Line 7 */
+
+position: absolute;
+width: 356px;
+height: 0px;
+left: 107px;
+top: 4331px;
+
+border: 1px solid #000000;
+
+
+/* Graduation */
+
+position: absolute;
+width: 106px;
+height: 27px;
+left: 642px;
+top: 1973px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Graduation */
+
+position: absolute;
+width: 106px;
+height: 27px;
+left: 634px;
+top: 3243px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Wedding */
+
+position: absolute;
+width: 83px;
+height: 27px;
+left: 839px;
+top: 1973px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Wedding */
+
+position: absolute;
+width: 83px;
+height: 27px;
+left: 831px;
+top: 3243px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Custom */
+
+position: absolute;
+width: 73px;
+height: 27px;
+left: 1007px;
+top: 1973px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Custom */
+
+position: absolute;
+width: 73px;
+height: 27px;
+left: 999px;
+top: 3243px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 841px;
+height: 199px;
+left: 505px;
+top: 4230px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Based 27 reviews on Google Maps */
+
+position: absolute;
+width: 303px;
+height: 20px;
+left: 541px;
+top: 4369px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+
+/* Apakah bisa request rangkaian custom? */
+
+position: absolute;
+width: 842px;
+height: 54px;
+left: 259px;
+top: 5500px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.83);
+
+
+
+/* + */
+
+position: absolute;
+width: 20px;
+height: 71px;
+left: 1177px;
+top: 5502px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+text-transform: capitalize;
+
+
+
+/* Apakah bisa request rangkaian custom? */
+
+position: absolute;
+width: 842px;
+height: 54px;
+left: 264px;
+top: 5341px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.83);
+
+
+
+/* Bisa. Ceritakan warna, ukuran, dan suasana yang kamu inginkan melalui WhatsApp. */
+
+position: absolute;
+width: 938px;
+height: 54px;
+left: 264px;
+top: 5401px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+text-transform: capitalize;
+
+/* muted */
+color: #64758A;
+
+
+
+/* + */
+
+position: absolute;
+width: 20px;
+height: 71px;
+left: 1159.83px;
+top: 5346.33px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+text-transform: capitalize;
+
+transform: rotate(-45deg);
+
+
+/* Apakah bisa request rangkaian custom? */
+
+position: absolute;
+width: 842px;
+height: 54px;
+left: 259px;
+top: 5597px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.83);
+
+
+
+/* + */
+
+position: absolute;
+width: 20px;
+height: 71px;
+left: 1177px;
+top: 5599px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+text-transform: capitalize;
+
+
+
+/* Apakah bisa request rangkaian custom? */
+
+position: absolute;
+width: 842px;
+height: 54px;
+left: 259px;
+top: 5696px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+/* or 300% */
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.83);
+
+
+
+/* + */
+
+position: absolute;
+width: 20px;
+height: 71px;
+left: 1177px;
+top: 5698px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+/* or 150% */
+text-transform: capitalize;
+
+
+
+/* They said on Google Maps */
+
+position: absolute;
+width: 282px;
+height: 84px;
+left: 107px;
+top: 4230px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+
+
+/* 4.0 / 5 */
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 554px;
+top: 4265px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 40px;
+/* identical to box height, or 67% */
+
+
+
+/* Line 8 */
+
+position: absolute;
+width: 140px;
+height: 0px;
+left: 748px;
+top: 4265px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* hugeicons:pen-02 */
+
+position: absolute;
+width: 25.16px;
+height: 25.16px;
+left: 977.28px;
+top: 1971.65px;
+
+transform: rotate(-12.81deg);
+
+
+/* Group */
+
+position: absolute;
+left: 14.96%;
+right: 10.04%;
+top: 14.96%;
+bottom: 10.04%;
+
+transform: rotate(-12.81deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 14.96%;
+right: 10.04%;
+top: 14.96%;
+bottom: 10.04%;
+
+transform: rotate(-12.81deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 39.62%;
+right: 12.97%;
+top: 26.15%;
+bottom: 32.18%;
+
+transform: rotate(-12.81deg);
+
+
+/* hugeicons:pen-02 */
+
+position: absolute;
+width: 25.16px;
+height: 25.16px;
+left: 969.28px;
+top: 3241.65px;
+
+transform: rotate(-12.81deg);
+
+
+/* Group */
+
+position: absolute;
+left: 14.96%;
+right: 10.04%;
+top: 14.96%;
+bottom: 10.04%;
+
+transform: rotate(-12.81deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 14.96%;
+right: 10.04%;
+top: 14.96%;
+bottom: 10.04%;
+
+transform: rotate(-12.81deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 39.62%;
+right: 12.97%;
+top: 26.15%;
+bottom: 32.18%;
+
+transform: rotate(-12.81deg);
+
+
+/* Frame 25 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+position: absolute;
+width: 181px;
+height: 25px;
+left: 541px;
+top: 4331px;
+
+
+
+/* emojione:star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 25px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Rectangle 33 */
+
+position: absolute;
+width: 515px;
+height: 492px;
+left: 777px;
+top: 6243px;
+
+background: #D9D9D9;
+
+
+/* Kepuasan Anda adalah prioritas kami. Terima kasih telah mempercayakan momen spesial Anda kepada MHAS Florist. */
+
+position: absolute;
+width: 244px;
+height: 60px;
+left: 107px;
+top: 4369px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+
+
+/* Frame 31 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+position: absolute;
+width: 287px;
+height: 157px;
+left: 421px;
+top: 4480px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 33 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 1244px;
+height: 157px;
+left: 102px;
+top: 4478px;
+
+
+
+/* Frame 30 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 33 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 34 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 34 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 1244px;
+height: 157px;
+left: 102px;
+top: 4668px;
+
+
+
+/* Frame 30 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 32 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 33 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 34 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 21px 40px 22px;
+gap: 10px;
+
+width: 287px;
+height: 157px;
+
+/* putihh */
+background: #FFFFFF;
+border: 0.5px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 29 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 28 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 244px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 27 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 35px;
+
+width: 244px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Atik Mudrikah */
+
+width: 167px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 26 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 39px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* emojione:star */
+
+width: 7px;
+height: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Toko buket paling murah di Kebumen. Recommended banget guys, pelayanannya ramah. Pokoknya gak nyesel beli disini Bisa dijadikan langganan dan reseller juga lho */
+
+width: 244px;
+height: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+/* or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 9 Bulan Lalu */
+
+width: 244px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: 122px;
+top: 6439px;
+
+background: #000000;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: 122px;
+top: 6533px;
+
+background: #000000;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 13px;
+height: 13px;
+left: 122px;
+top: 6586px;
+
+background: #000000;
+
+
+/* Frame 35 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 249px;
+height: 35px;
+left: 102px;
+top: 4868px;
+
+background: #FFFFFF;
+/* why choose us? */
+border: 1px solid #1556A0;
+border-radius: 20px;
+
+
+/* Lihat ulasan lainnya di Google Maps */
+
+width: 191px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+/* why choose us? */
+color: #1556A0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+width: 11.93px;
+height: 0px;
+
+/* why choose us? */
+border: 1px solid #1556A0;
+transform: rotate(-33.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 36 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 203px;
+height: 35px;
+left: 377px;
+top: 4867px;
+
+background: #FFFFFF;
+/* why choose us? */
+border: 1px solid #1556A0;
+border-radius: 20px;
+
+
+/* Lihat review video di Tiktok */
+
+width: 146px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 20px;
+/* identical to box height, or 182% */
+
+/* why choose us? */
+color: #1556A0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+width: 11.93px;
+height: 0px;
+
+/* why choose us? */
+border: 1px solid #1556A0;
+transform: rotate(-33.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 46 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 34px;
+isolation: isolate;
+
+position: absolute;
+width: 586px;
+height: 60px;
+left: calc(50% - 586px/2);
+top: 2853px;
+
+
+
+/* Rectangle 43 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 46 */
+
+width: 60px;
+height: 60px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Rectangle 48 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Rectangle 49 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* .... */
+
+width: 22px;
+height: 27px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Rectangle 51 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Rectangle 52 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* < */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 24px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
+
+
+/* 1 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 118px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+z-index: 8;
+
+
+/* 2 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 212px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+z-index: 9;
+
+
+/* 3 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 306px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+z-index: 10;
+
+
+/* 8 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 456px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+z-index: 11;
+
+
+/* > */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 550px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+z-index: 12;
+
+
+/* Frame 60 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 34px;
+isolation: isolate;
+
+position: absolute;
+width: 586px;
+height: 60px;
+left: calc(50% - 586px/2 - 9px);
+top: 3952px;
+
+
+
+/* Rectangle 43 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 46 */
+
+width: 60px;
+height: 60px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Rectangle 48 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Rectangle 49 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* .... */
+
+width: 22px;
+height: 27px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Rectangle 51 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Rectangle 52 */
+
+box-sizing: border-box;
+
+width: 60px;
+height: 60px;
+
+/* putihh */
+background: #FFFFFF;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* < */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 24px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
+
+
+/* 1 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 118px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+z-index: 8;
+
+
+/* 2 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 212px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+z-index: 9;
+
+
+/* 3 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 306px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+z-index: 10;
+
+
+/* 8 */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 456px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+z-index: 11;
+
+
+/* > */
+
+position: absolute;
+width: 12px;
+height: 27px;
+left: 550px;
+top: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+z-index: 12;
+
+
+/* Frame 52 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 324px;
+height: 139px;
+left: 779px;
+top: 4265px;
+
+
+
+/* Frame 50 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 324px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 17px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 5 */
+
+width: 9px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px 0px 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 271px;
+height: 12px;
+left: 1px;
+top: 0px;
+
+/* blue */
+background: #1556A0;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 90% */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 300px;
+top: -3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 51 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 324px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 17px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 4 */
+
+width: 9px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px 0px 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 28px;
+height: 12px;
+left: 0px;
+top: -0.5px;
+
+/* blue */
+background: #1556A0;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 5% */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 300px;
+top: -3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 52 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 324px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 17px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 3 */
+
+width: 9px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px 0px 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 21px;
+height: 12px;
+left: 0px;
+top: -0.5px;
+
+/* blue */
+background: #1556A0;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 3% */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 300px;
+top: -3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 53 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 324px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 17px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 2 */
+
+width: 9px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px 0px 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 12px;
+left: 0px;
+top: 0.5px;
+
+/* blue */
+background: #1556A0;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 2% */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 300px;
+top: -3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 54 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 324px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 49 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 17px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 1 */
+
+width: 9px;
+height: 15px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* emojione:star */
+
+width: 8px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFCE31;
+
+
+/* Frame 48 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 47 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 24px 0px 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 295px;
+height: 12px;
+
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 11px;
+height: 12px;
+left: 0px;
+top: 0.5px;
+
+/* blue */
+background: #1556A0;
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* 1% */
+
+position: absolute;
+width: 32px;
+height: 15px;
+left: 300px;
+top: -3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height, or 136% */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Rectangle 45 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 412px;
+left: -2px;
+top: 7006px;
+
+/* blue */
+background: #1556A0;
+/* cream */
+border: 1px solid #F7F5EF;
+
+
+/* Merangkai keindahan bunga dengan penuh ketulusan, untuk menemani setiap cerita dan momen spesial Anda. */
+
+position: absolute;
+width: 253px;
+height: 52px;
+left: 120px;
+top: 7138px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+/* or 100% */
+
+/* putihh */
+color: #FFFFFF;
+
+
+
+/* Frame 45 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 462px;
+height: 356px;
+left: 633px;
+top: 963px;
+
+
+
+/* image 9 */
+
+position: absolute;
+width: 134px;
+height: 141px;
+left: 1179px;
+top: 4264px;
+
+background: url(image);
+
+
+/* si:grid-view-line */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 125px;
+top: 1975px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* si:grid-view-line */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 117px;
+top: 3245px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* emojione-monotone:bouquet */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 236px;
+top: 1974px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 3.12%;
+bottom: 3.12%;
+
+/* blue */
+background: #1556A0;
+
+
+/* emojione-monotone:bouquet */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 228px;
+top: 3244px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 3.12%;
+bottom: 3.12%;
+
+/* blue */
+background: #1556A0;
+
+
+/* fa6-solid:graduation-cap */
+
+position: absolute;
+width: 28px;
+height: 23px;
+left: 612px;
+top: 1974px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 6.25%;
+bottom: 6.23%;
+
+/* blue */
+background: #1556A0;
+
+
+/* fa6-solid:graduation-cap */
+
+position: absolute;
+width: 28px;
+height: 23px;
+left: 604px;
+top: 3244px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 6.25%;
+bottom: 6.23%;
+
+/* blue */
+background: #1556A0;
+
+
+/* Frame 58 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 442px;
+height: 336px;
+left: 643px;
+top: 973px;
+
+
+
+/* Frame 38 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 442px;
+height: 336px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+width: 422px;
+height: 316px;
+
+background: #D9D9D9;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+
+position: absolute;
+width: 734px;
+height: 632px;
+left: 653px;
+top: 983px;
+
+
+
+/* Frame 53 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 315px;
+height: 316px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 5 */
+
+box-sizing: border-box;
+
+width: 315px;
+height: 316px;
+
+background: #B258C9;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 57 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 734px;
+height: 316px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 55 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1px;
+
+width: 525px;
+height: 316px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 5 */
+
+box-sizing: border-box;
+
+width: 262px;
+height: 316px;
+
+background: #27F63C;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 6 */
+
+box-sizing: border-box;
+
+width: 262px;
+height: 316px;
+
+background: #278BF6;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 208px;
+height: 316px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 7 */
+
+box-sizing: border-box;
+
+width: 208px;
+height: 158px;
+
+background: #FF0000;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+width: 208px;
+height: 158px;
+
+background: #15345A;
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* icon-park-outline:diamond-ring */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 810px;
+top: 1974px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 20.83%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 16.67%;
+top: 29.17%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 33.33%;
+top: 8.33%;
+bottom: 70.83%;
+
+
+
+/* icon-park-outline:diamond-ring */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 802px;
+top: 3244px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 20.83%;
+right: 16.67%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 16.67%;
+top: 29.17%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 33.33%;
+top: 8.33%;
+bottom: 70.83%;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 122px;
+height: 39px;
+left: 87px;
+top: 7px;
+
+background: url(image.png);
+
+
+/* image 11 */
+
+position: absolute;
+width: 268px;
+height: 98px;
+left: 104px;
+top: 7023px;
+
+background: url(image);
+
+
+/* game-icons:flower-twirl */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 414px;
+top: 1976px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 4.03%;
+right: 3.81%;
+top: 2.97%;
+bottom: 4.33%;
+
+/* blue */
+background: #1556A0;
+
+
+/* game-icons:flower-twirl */
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 406px;
+top: 3246px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 4.03%;
+right: 3.81%;
+top: 2.97%;
+bottom: 4.33%;
+
+/* blue */
+background: #1556A0;
+
+
+/* Vector 18 */
+
+position: absolute;
+width: 0px;
+height: 253px;
+left: 442px;
+top: 7054px;
+
+border: 1px solid #FFFFFF;
+
+
+/* Vector 22 */
+
+position: absolute;
+width: 0px;
+height: 1200px;
+left: calc(50% - 0px/2 - 600px);
+top: 7347px;
+
+border: 0.5px solid #FFFFFF;
+transform: rotate(-90deg);
+
+
+/* Vector 20 */
+
+position: absolute;
+width: 0px;
+height: 253px;
+left: 696px;
+top: 7054px;
+
+border: 1px solid #FFFFFF;
+
+
+/* Vector 21 */
+
+position: absolute;
+width: 0px;
+height: 253px;
+left: 971px;
+top: 7054px;
+
+border: 1px solid #FFFFFF;
+
+
+/* Vector 19 */
+
+position: absolute;
+width: 0px;
+height: 256px;
+left: 120px;
+top: 7223px;
+
+/* putihh */
+border: 1px solid #FFFFFF;
+transform: rotate(-90deg);
+
+
+/* Frame 69 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 107px;
+top: 2034px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 73 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 107px;
+top: 2440px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 70 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 427px;
+top: 2034px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 74 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 427px;
+top: 2440px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 71 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 747px;
+top: 2034px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 75 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 747px;
+top: 2440px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 72 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 1067px;
+top: 2034px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 76 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 18px 0px 0px;
+gap: 232px;
+isolation: isolate;
+
+position: absolute;
+width: 314px;
+height: 383px;
+left: 1067px;
+top: 2440px;
+
+background: #D9D9D9;
+
+
+/* icon-park-outline:like */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 274px;
+top: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 11.82%;
+
+
+
+/* Frame 68 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 11px 24px 19px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 109px;
+left: 0px;
+top: 274px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 67 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 266px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 66 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7px;
+
+width: 121px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 61 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 107px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Blue Serenity */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rp250.000 */
+
+width: 107px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 63 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 3px 15px 3px 11px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 62 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 12px;
+top: calc(50% - 22px/2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* akar-icons:eye-open */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.94%;
+right: 9.95%;
+top: 20.83%;
+bottom: 20.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+
+
+/* View Detail */
+
+width: 67px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 65 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px 18px 4px 13px;
+gap: 10px;
+isolation: isolate;
+
+width: 121px;
+height: 28px;
+
+/* blue */
+background: #1556A0;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 64 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 90px;
+height: 19px;
+left: 14px;
+top: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* boxicons:cart-alt */
+
+width: 19px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: 37.72%;
+top: 10.53%;
+bottom: 6.14%;
+
+/* putihh */
+background: #FFFFFF;
+
+
+/* Add to Cart */
+
+width: 69px;
+height: 18px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 86 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+isolation: isolate;
+
+position: absolute;
+width: 250px;
+height: 38px;
+left: 123px;
+top: 7241px;
+
+
+
+/* Ellipse 4 */
+
+width: 40px;
+height: 40px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Ellipse 7 */
+
+width: 40px;
+height: 40px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Ellipse 8 */
+
+width: 40px;
+height: 40px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Ellipse 9 */
+
+width: 40px;
+height: 40px;
+
+/* putihh */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* thesvg-color:whatsapp */
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: calc(50% - 19px/2 - 103.5px);
+top: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Vector */
+
+position: absolute;
+left: -21.05%;
+right: -10.53%;
+top: 0%;
+bottom: -31.58%;
+
+background: #25D366;
+
+
+/* tabler:brand-shopee */
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 74px;
+top: 4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* Group */
+
+position: absolute;
+left: 16.67%;
+right: 16.62%;
+top: 12.5%;
+bottom: 12.5%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.62%;
+top: 12.5%;
+bottom: 12.5%;
+
+/* shopee */
+border: 2px solid #EE4D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.58%;
+right: 39.58%;
+top: 41.67%;
+bottom: 25%;
+
+/* shopee */
+border: 2px solid #EE4D2D;
+
+
+/* selfhst:instagram */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 147px;
+top: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+z-index: 6;
+
+
+/* Vector */
+
+position: absolute;
+left: 0.02%;
+right: -0.02%;
+top: 0.02%;
+bottom: -0.02%;
+
+background: radial-gradient(92.18% 99.08% at 26.54% 107.67%, #FFDD55 0%, #FFDD55 10%, #FF543E 50%, #C837AB 100%);
+
+
+/* Vector */
+
+position: absolute;
+left: 0.02%;
+right: -0.02%;
+top: 0.02%;
+bottom: -0.02%;
+
+background: radial-gradient(179.06% 43.43% at -16.77% 7.2%, #3771C8 0%, #3771C8 12.8%, rgba(102, 0, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.09%;
+right: 13.09%;
+top: 13.09%;
+bottom: 13.09%;
+
+background: #FFFFFF;
+
+
+/* logos:threads-icon */
+
+position: absolute;
+width: 22px;
+height: 25px;
+left: 219px;
+top: 7px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+z-index: 7;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.07%;
+
+background: #000000;
+
+
+/* Frame 105 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+position: absolute;
+width: 29px;
+height: 203.96px;
+left: 1012px;
+top: 7088px;
+
+
+
+/* Frame 104 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 101px;
+
+width: 20px;
+height: 138.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+width: 16px;
+height: 19.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 45%;
+top: 3.59%;
+bottom: 92.09%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 20%;
+top: 0%;
+bottom: 85.63%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector */
+
+width: 18px;
+height: 18px;
+
+border: 1.5px solid #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 103 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 9px;
+
+width: 29px;
+height: 46.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 29px;
+height: 18px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+width: 20px;
+height: 19.98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 15.52%;
+right: 15.52%;
+top: 57.47%;
+bottom: 0%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 39.66%;
+top: 65.98%;
+bottom: 12.76%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Navigation Home About Products Gallery Reviews FAQ Contact Location */
+
+position: absolute;
+width: 150px;
+height: 334px;
+left: 508px;
+top: 7046px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+/* or 155% */
+
+color: #FFFFFF;
+
+
+
+/* Customer Service How to Order Payment & Shipping Return & Refund Terms & Conditions Privacy Policy */
+
+position: absolute;
+width: 179px;
+height: 334px;
+left: 746px;
+top: 7046px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+/* or 155% */
+
+color: #FFFFFF;
+
+
+
+/* Jl. Ronggowarsito, Legok Kidul, Pejagoan, Kec. Pejagoan, Kabupaten Kebumen, Jawa Tengah 54361 0895-1057-4048 mhas.florist@gmail.com Buka dan tutup: 08.00 – 21.00 */
+
+position: absolute;
+width: 285px;
+height: 335px;
+left: 1054px;
+top: 7075px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* or 165% */
+
+color: #FFFFFF;
+
+
+
+/* Contact Info */
+
+position: absolute;
+width: 338px;
+height: 334px;
+left: 1013px;
+top: 7046px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+/* or 155% */
+
+color: #FFFFFF;
+
+
+
+/* © 2026 MHAS Florist. All Rights Reserved. */
+
+position: absolute;
+width: 307px;
+height: 14px;
+left: 564px;
+top: 7373px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+/* or 94% */
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 80 */
+
+position: absolute;
+width: 1366px;
+height: 169px;
+left: calc(50% - 1366px/2);
+top: 6786px;
+
+background: #D9D9D9;
+opacity: 0.7;
+border-radius: 20px;
+
+
+/* Frame 106 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 41px 13px 46px;
+gap: 10px;
+
+position: absolute;
+width: 227px;
+height: 45px;
+left: 1124px;
+top: 6848px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+border-radius: 20px;
+
+
+/* basil:whatsapp-solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.68%;
+right: 8.33%;
+top: 8.33%;
+bottom: 9.01%;
+
+/* WhatsApp */
+background: #25D366;
+/* WhatsApp */
+border: 2px solid #25D366;
+
+
+/* Chat on WhatsApp */
+
+width: 126px;
+height: 20px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* WhatsApp */
+color: #25D366;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+width: 11.93px;
+height: 0px;
+
+/* WhatsApp */
+border: 1px solid #25D366;
+transform: rotate(-33.02deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Punya pertanyaan, permintaan khusus, atau masukan? Jangan ragu untuk menghubungi kami. */
+
+position: absolute;
+width: 508px;
+height: 52px;
+left: 353px;
+top: 6860px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+
+/* Open in Google Maps */
+
+position: absolute;
+width: 221px;
+height: 61px;
+left: 129px;
+top: 6677px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 60px;
+/* or 375% */
+
+color: #000000;
+
+
+
+/* image 13 */
+
+position: absolute;
+width: 90.87px;
+height: 136.31px;
+left: 118px;
+top: 6791px;
+
+background: url(image);
+opacity: 0.2;
+transform: rotate(10deg);
+
+
+/* image 12 */
+
+position: absolute;
+width: 147px;
+height: 220px;
+left: 101.32px;
+top: 6790.9px;
+
+background: url(image);
+transform: rotate(-10deg);
