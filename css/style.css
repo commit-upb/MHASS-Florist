@@ -304,48 +304,116 @@
 .features {
     position: relative;
     width: 100%;
-    height: 175px;
-    background: #1556a0;
+    background-color: #ffffff;
+    padding: 48px 60px 88px;
+    overflow: hidden;
+}
+
+.features::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 42px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff 88%);
+    pointer-events: none;
+}
+
+.features-heading {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.features-eyebrow {
+    color: #2E67A9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 3px;
+}
+
+.features-heading h2 {
+    color: #1556A0;
+    font-family: 'Orelega One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.features-heading-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 7px;
+}
+
+.features-heading-decoration > span:first-child,
+.features-heading-decoration > span:last-child {
+    width: 36px;
+    height: 1px;
+    background-color: #F5BB3B;
+}
+
+.features-heading-flower {
+    width: 14px;
+    height: 14px;
+    background: url("../assets/icons/Bunga Kuning.png") center / contain no-repeat;
 }
 
 .features-container {
-    width: 100%;
-    height: 175px;
-    padding: 0 37px 0 61px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    text-align: center;
 }
 
 .feature-item {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-width: 0;
-    padding-right: 30px;
+    padding: 0 34px;
 }
 
 .feature-item:not(:last-child) {
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.feature-item:not(:first-child) {
-    padding-left: 30px;
-}
-
-.feature-number {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color:#F5BB3B;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    border-right: 1px solid #D9E1EA;
 }
 
 .feature-top {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    background-color: #FFF0B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.feature-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.feature-number {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #1556A0;
 }
 
 .feature-line {
@@ -358,7 +426,7 @@
 .feature-item h3 {
     margin-top: 10px;
 
-    color: #ffffff;
+    color: #1556A0;
     font-family: 'Orelega One', sans-serif;
     font-size: 28px;
     font-weight: 400;
@@ -369,7 +437,7 @@
     margin-top: 12px;
     width: 100%;
     max-width: 450px;
-    color: #ffffff;
+    color: #315477;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -385,7 +453,7 @@
 .footer-container {
     max-width: 1440px;
     margin:0 auto;
-    padding: 10px 30px 40px;
+    padding: 5px 30px 40px;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
     gap: 50px;
@@ -538,6 +606,18 @@
     background-position: center;
     opacity: 0.15;
     z-index: 0;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff 100%);
+    pointer-events: none;
+    z-index: 2;
 }
 
 .about-container {
@@ -930,6 +1010,24 @@
     .btn-whatsapp {
         width: 100%;
         max-width: 227px;
+    }
+
+    .features {
+        padding: 40px 20px 72px;
+    }
+
+    .features-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .feature-item {
+        padding: 0 10px 24px;
+    }
+
+    .feature-item:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #D9E1EA;
     }
 
 }
