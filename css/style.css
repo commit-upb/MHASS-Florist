@@ -12,11 +12,17 @@
 
 
 .navbar {
-    position: relative;
-    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     width: 100%;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(10px);
+}
 
+body {
+    padding-top: 80px;
 }
 
 .navbar-container {
@@ -894,9 +900,16 @@
         width: 12px;
     }
 
-    .navbar {
-        position: relative;
+    body {
+        padding-top: 30px;
     }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
     
     .navbar-container {
         min-height: 30px;
@@ -912,6 +925,7 @@
 
     .nav-menu {
         display: none;
+        margin-top: 3px;
         position: absolute;
         top: 30px;
         right: 5px;
@@ -922,6 +936,7 @@
         gap: 10px;
         padding: 10px;
         background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
     }
 
     .nav-link {
