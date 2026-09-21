@@ -1201,7 +1201,8 @@ body {
     }
 
     body {
-        padding-top: 30px;
+        padding-top: 42px;
+        overflow-x: hidden;
     }
 
     .navbar {
@@ -1210,10 +1211,9 @@ body {
         left: 0;
     }
 
-    
     .navbar-container {
-        min-height: 30px;
-        padding: 0 20px;
+        min-height: 42px;
+        padding: 0 28px;
     }
 
     .nav-right {
@@ -1227,7 +1227,7 @@ body {
         display: none;
         margin-top: 3px;
         position: absolute;
-        top: 30px;
+        top: 42px;
         right: 5px;
         left: auto;
         width: 60px;
@@ -1240,7 +1240,8 @@ body {
     }
 
     .nav-link {
-        font-size: 10px;
+        font-size: 11px;
+        font-weight: 400;
     }
 
     .nav-menu.active {
@@ -1253,9 +1254,9 @@ body {
         justify-content: center;
         background: transparent;
         cursor: pointer;
-        margin-left: 10px;
-        width: 15px;
-        height: 15px;
+        margin-left: 8px;
+        width: 18px;
+        height: 18px;
         border-radius: 2px;
     }
 
@@ -1270,50 +1271,92 @@ body {
     }
 
     .home {
-        height: calc(100vh - 30px);
-        min-height: 600px;
+        height: auto;
+        min-height: calc(100svh - 42px);
+    }
+
+    .home-background {
+        min-height: 100%;
+    }
+
+    .flower-image {
+        background-position: 62% center;
+    }
+
+    .flower-blur {
+        inset: -20px;
+        opacity: 0.55;
+        mask-image: linear-gradient(
+            to right,
+            black 0%,
+            rgba(0, 0, 0, 0.9) 34%,
+            rgba(0, 0, 0, 0.35) 64%,
+            transparent 92%
+        );
+        -webkit-mask-image: linear-gradient(
+            to right,
+            black 0%,
+            rgba(0, 0, 0, 0.9) 34%,
+            rgba(0, 0, 0, 0.35) 64%,
+            transparent 92%
+        );
+    }
+
+    .flower-fade {
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.96) 0%,
+            rgba(255, 255, 255, 0.88) 42%,
+            rgba(255, 255, 255, 0.42) 64%,
+            rgba(255, 255, 255, 0.06) 82%,
+            transparent 100%
+        );
     }
 
     .home-container {
-        padding: 0 20px;
+        padding: 0;
         align-items: flex-start;
     }
 
     .home-content {
         width: 100%;
-        max-width: 100%;
-        margin-top: 50px;
+        max-width: 480px;
+        margin-top: 0;
+        padding: 18px 24px 38px 37px;
+        background-color: transparent;
     }
 
     .Beautiful {
         width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
         height: auto;
-
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
 
     .home-content h1 {
         width: 100%;
         height: auto;
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 40px;
+        line-height: 60px;
         letter-spacing: -0.05em;
-        margin-bottom: 15px;
     }
 
     .home-content h1 span {
-        font-size: 64px;
-        line-height: 55px;
+        
+        font-size: 50px;
+        line-height: 30px;
     }
 
     .home-description {
         width: 100%;
+        max-width: 235px;
         height: auto;
         font-size: 12px;
-        line-height: 18px;
-        margin-top: 20px;
-        margin-bottom: 25px;
+        line-height: 20px;
+        margin-top: 24px;
+        margin-bottom: 100px;
     }
 
     .home-buttons {
@@ -1323,8 +1366,17 @@ body {
 
     .btn-shop,
     .btn-whatsapp {
-        width: 100%;
-        max-width: 227px;
+        width: 230px;
+    }
+
+    .btn-shop {
+        height: 40px;
+        border-radius: 25px;
+    }
+
+    .btn-whatsapp {
+        height: 40px;
+        border-radius: 25px;
     }
 
     .features {
