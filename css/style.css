@@ -1060,6 +1060,12 @@ body {
     text-decoration: none;
 }
 
+.reviews-button-arrow {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 1;
+}
+
 .reviews-actions a:hover {
     background-color: #2E67A9;
     color: #ffffff;
@@ -1211,8 +1217,6 @@ body {
     padding-bottom: 10px;
     text-align: center;
 }
-
-
 
 @media (max-width: 768px) {
 
@@ -1561,6 +1565,268 @@ body {
         gap: 4px;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .reviews {
+        width: 100%;
+        background-color: #F5BB3B;
+        overflow: hidden;
+    }
+
+    .reviews-container {
+        position: relative;
+        margin-left: 8px;
+        width: 100%;
+        max-width: none;
+        min-height: 0;
+        padding: 20px 15px 16px;
+    }
+
+    .reviews-header {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        min-height: 175px;
+        padding-left: 10px;
+        z-index: 2;
+    }
+
+    .reviews-label {
+        display: inline-block;
+        margin: 0 0 10px 0;
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 900;
+    }
+
+    .reviews-header h1 {
+        width: 250px;
+        margin: 0;
+        color: #1556A0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 0.95;
+    }
+
+    .reviews-header h1 span {
+        display: block;
+        margin-top: 2px;
+        color: #1556A0;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .reviews-line {
+        width: 130px;
+        height: 1.5px;
+        margin-top: 7px;
+        margin-bottom: 18px;
+        background-color: #000000;
+    }
+
+    .reviews-description {
+        width: 130px;
+        margin: 0;
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .reviews-image {
+        position: absolute;
+        top: -145px;
+        right: -7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        transform: none;
+        z-index: 3;
+    }
+
+    .reviews-image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .reviews-summary {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: 10px;
+        width: 241px;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 6px;
+        border: none;
+        background-color: #ffffff;
+        border: 1px solid #2E67A9;
+        display: flex;
+        align-items: stretch;
+        overflow: visible;
+        z-index: 2;
+    }
+
+    .reviews-overall {
+        width: 47%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .reviews-score {
+        display: flex;
+        align-items: baseline;
+        color: #1556A0;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .reviews-score span:first-child {
+        margin-left: 0;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .score-divider {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .score-max {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .reviews-overall .reviews-stars {
+        margin-top: 5px;
+        margin-left: 0px;
+        color: #FFCE31;
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+
+    .reviews-total {
+        margin: 7px 0 0;
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 13px;
+    }
+
+    .reviews-divider {
+        position: absolute;
+        top: 14px;
+        left: 45%;
+        width: 1px;
+        height: 75px;
+    }
+
+    .reviews-breakdown {
+        position: absolute;
+        top: 50%;
+        left: calc(41% + 20px);
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        transform: translateY(-50%);
+    }
+
+    .rating-row {
+        display: flex;
+        align-items: center;
+        height: 15px;
+    }
+
+    .rating-label {
+        display: flex;
+        align-items: center;
+        width: 15px;
+        color: #0B3569;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8px;
+    }
+
+    .rating-star {
+        margin-left: 2px;
+        color: #FFCE31;
+        font-size: 11px;
+    }
+
+    .rating-bar {
+        width: 70px;
+        height: 9px;
+        margin-left: 5px;
+        border: 1.5px solid #2E67A9;
+        border-radius: 20px;
+        background-color: #F0EEE7;
+        overflow: hidden;
+    }
+
+    .rating-fill {
+        height: 100%;
+        background-color: #2E67A9;
+        border-radius: 20px;
+    }
+
+    .rating-percent {
+        width: 27px;
+        margin-left: 5px;
+        color: #0B3569;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 8px;
+    }
+
+    .reviews-list {
+        width: 88%;
+        margin-top: 60px;
+        margin-left: 10px;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .review-card {
+        width: 100%;
+        height: auto;
+        min-height: 150px;
+    }
+
+    .reviews-actions {
+        margin-left: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .reviews-actions a {
+        height: 25px;
+        border: 1px solid #2E67A9;
+        border-radius: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 9px;
+    }
+
+    .reviews-button-arrow {
+        font-size: 11px;
+        margin-left: 7px;
+        line-height: 1;
     }
 
     .footer {
