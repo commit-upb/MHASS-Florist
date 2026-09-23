@@ -10,13 +10,9 @@ const googleReviewStats = {
     }
 };
 
-const reviewComments = [];
-
-const reviewsList = document.querySelector("#reviews-list");
-const googleReviewsLink = document.querySelector("#google-reviews-link");
-
-
-function renderReviewSummary() {
+function initReviews() {
+    const reviewsScore = document.querySelector("#reviews-score");
+    if (!reviewsScore) return;
 
     const totalReviews =
         googleReviewStats.stars[5] +
@@ -34,14 +30,11 @@ function renderReviewSummary() {
             (1 * googleReviewStats.stars[1])
         ) / totalReviews;
 
-    document.querySelector("#reviews-score").textContent =
-        rating.toFixed(1);
+    reviewsScore.textContent = rating.toFixed(1);
 
-    document.querySelector("#reviews-total").textContent =
-        totalReviews;
+    document.querySelector("#reviews-total").textContent = totalReviews;
 
     [1, 2, 3, 4, 5].forEach((ratingNumber) => {
-
         const count = googleReviewStats.stars[ratingNumber];
 
         const percentage =
@@ -49,19 +42,20 @@ function renderReviewSummary() {
                 ? Math.round((count / totalReviews) * 100)
                 : 0;
 
-        document.querySelector(`#bar-${ratingNumber}`).style.width =
-            `${percentage}%`;
+        const bar = document.querySelector(`#bar-${ratingNumber}`);
+        const percent = document.querySelector(`#percent-${ratingNumber}`);
 
-        document.querySelector(`#percent-${ratingNumber}`).textContent =
-            `${percentage}%`;
+        if (bar) bar.style.width = `${percentage}%`;
+        if (percent) percent.textContent = `${percentage}%`;
     });
+
+    const googleReviewsLink = document.querySelector("#google-reviews-link");
+    if (googleReviewsLink) {
+        googleReviewsLink.href =
+            `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(googleMapsLocation)}`;
+    }
 }
 
+initReviews();
 
-if (googleReviewsLink) {
-    googleReviewsLink.href =
-        `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(googleMapsLocation)}`;
-}
-
-
-renderReviewSummary();
+window.initReviews = initReviews;

@@ -10,6 +10,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id],
+.features {
+    scroll-margin-top: 80px;
+}
+
 
 .navbar {
     position: fixed;
@@ -1231,6 +1240,11 @@ body {
     body {
         padding-top: 42px;
         overflow-x: hidden;
+    }
+
+    section[id],
+    .features {
+        scroll-margin-top: 30px;
     }
 
     .navbar {
