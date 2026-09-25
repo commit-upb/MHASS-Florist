@@ -1969,3 +1969,30 @@ body {
     }
 
 }
+
+.products {
+    padding: 70px 60px 100px;
+    background-color: #EEF3F7;
+}
+
+.products-content {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #1556A0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold, bolder;
+    font-size: x-large;
+
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products-description {
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
