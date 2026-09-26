@@ -1995,4 +1995,49 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.category-list {
 
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.products-card {
+    height: 250px;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.favorite {
+    border-color: #1556A0;
+}
+
+.products-image {
+    height: 130px;
+}
+
+.products-info {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.products-name {
+    font-weight: bold;
+    color: #1556A0;
+
+}
+
+.products-price {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.products-action {
+    
+}
+
+.pagnation {
+    
+}
