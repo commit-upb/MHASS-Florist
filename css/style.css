@@ -2007,9 +2007,8 @@ body {
 }
 
 .products-card {
-    height: 250px;
     overflow: hidden;
-    background-color: yellow;
+    background-color: #fff;
 }
 
 .favorite {
@@ -2018,26 +2017,62 @@ body {
 
 .products-image {
     height: 130px;
+    overflow: hidden;
+}
+
+.products-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .products-info {
+    padding: 8px 10px 10px;
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .products-name {
-    font-weight: bold;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 900;
     color: #1556A0;
 
 }
 
 .products-price {
+    margin: 3px 0 8px;
+    font-size: 10px;
+    font-weight: 700;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #111
 }
 
 .products-action {
-    
+    display: flex;
+    gap: 5px;
+}
+
+.products-action button {
+    flex: 1;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.products-action button:first-child {
+    border: 1px solid #1556a0;
+    background: white;
+    color: #1556a0;
+}
+
+.products-action button:last-child {
+    border: 1px solid #1556a0;
+    background: #1556A0;
+    color: white;
 }
 
 .pagnation {
-    
+
 }
