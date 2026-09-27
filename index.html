@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
     <title>MHAS Florist</title>
 </head>
 <body>
@@ -26,8 +27,9 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </nav>
 
-                <button class="cart-button" type="button">
+                <button class="cart-button" type="button" aria-label="Open cart" aria-controls="cart-drawer" aria-expanded="false">
                     <img src="assets/icons/Keranjang.png" alt="Cart Icon">
+                    <span class="cart-count" aria-live="polite">0</span>
                 </button>
             </div>
 
@@ -78,6 +80,37 @@
 
         <div id="content" class="content" aria-live="polite"></div>
     </main>
+
+    <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+        <div class="cart-panel">
+            <div class="cart-header">
+                <h2 id="cart-title">YOUR CART</h2>
+                <button class="cart-close" type="button" aria-label="Close cart">&times;</button>
+            </div>
+
+            <p class="cart-item-count">0 Item</p>
+            <div class="cart-items" aria-live="polite"></div>
+
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Grand Total</span>
+                    <strong>Rp0</strong>
+                </div>
+                <button class="cart-checkout" type="button" disabled>
+                    <img src="assets/icons/WhatsApp.png" alt="" aria-hidden="true">
+                    <span>Order via WhatsApp</span>
+                </button>
+                <div class="cart-notice">
+                    <img src="assets/icons/Shield.png" alt="" aria-hidden="true">
+                    <div>
+                        <strong>Pesanan Anda akan dikirim melalui WhatsApp</strong>
+                        <span>Untuk konfirmasi lebih lanjut.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="cart-backdrop" aria-hidden="true"></div>
 
     <footer class="footer">
         <div class="footer-container">
@@ -172,6 +205,7 @@
     <script src="js/reviews.js"></script>
     <script src="js/products.js"></script>
     <script src="js/gallery.js"></script>
+    <script src="js/cart.js"></script>
     <script src="js/router.js"></script>
     <script src="js/main.js"></script>
 </body>
