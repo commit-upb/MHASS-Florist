@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | MHAS Florist</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body>
+    <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-container">
+            <header class="gallery-heading">
+                <p class="gallery-eyebrow">Gallery</p>
+                <h1 id="gallery-title">Made To Be Remembered.</h1>
+                <p class="gallery-description">Inspirasi rangkaian untuk hari biasa yang ingin terasa istimewa.</p>
+            </header>
+
+            <div class="gallery-filters" role="toolbar" aria-label="Kategori gallery">
+                <button class="gallery-filter active" type="button" data-category="all" aria-pressed="true">
+                    <img src="../assets/icons/All.png" alt="" aria-hidden="true">
+                    <span>All</span>
+                </button>
+                <button class="gallery-filter" type="button" data-category="bouquet" aria-pressed="false">
+                    <img src="../assets/icons/bouquet.png" alt="" aria-hidden="true">
+                    <span>Bouquet</span>
+                </button>
+                <button class="gallery-filter" type="button" data-category="flowers-box" aria-pressed="false">
+                    <img src="../assets/icons/Box.png" alt="" aria-hidden="true">
+                    <span>Flowers Box</span>
+                </button>
+                <button class="gallery-filter" type="button" data-category="graduation" aria-pressed="false">
+                    <img src="../assets/icons/Graduation.png" alt="" aria-hidden="true">
+                    <span>Graduation</span>
+                </button>
+                <button class="gallery-filter" type="button" data-category="wedding" aria-pressed="false">
+                    <img src="../assets/icons/Wedding.png" alt="" aria-hidden="true">
+                    <span>Wedding</span>
+                </button>
+                <button class="gallery-filter" type="button" data-category="custom" aria-pressed="false">
+                    <img src="../assets/icons/Custom.png" alt="" aria-hidden="true">
+                    <span>Custom</span>
+                </button>
+            </div>
+
+            <div class="gallery-grid" aria-live="polite">
+                <button class="gallery-item" type="button" data-category="bouquet graduation" data-image="../assets/images/tes.png" aria-label="Lihat bouquet wisuda hijau tosca">
+                    <img src="../assets/images/tes.png" alt="Bouquet wisuda hijau tosca">
+                </button>
+                <button class="gallery-item" type="button" data-category="bouquet" data-image="../assets/images/tes2.png" aria-label="Lihat bouquet bunga pastel">
+                    <img src="../assets/images/tes2.png" alt="Bouquet bunga pastel">
+                </button>
+                <button class="gallery-item" type="button" data-category="flowers-box" data-image="../assets/images/tes3.png" aria-label="Lihat flowers box merah muda">
+                    <img src="../assets/images/tes3.png" alt="Flowers box merah muda">
+                </button>
+                <button class="gallery-item" type="button" data-category="wedding" data-image="../assets/images/tes4.png" aria-label="Lihat rangkaian bunga pernikahan">
+                    <img src="../assets/images/tes4.png" alt="Rangkaian bunga pernikahan">
+                </button>
+                <button class="gallery-item" type="button" data-category="custom" data-image="../assets/images/tes5.png" aria-label="Lihat rangkaian bunga custom">
+                    <img src="../assets/images/tes5.png" alt="Rangkaian bunga custom">
+                </button>
+                <button class="gallery-item" type="button" data-category="bouquet graduation" data-image="../assets/images/tes6.png" aria-label="Lihat bouquet wisuda">
+                    <img src="../assets/images/tes6.png" alt="Bouquet wisuda">
+                </button>
+                <button class="gallery-item" type="button" data-category="bouquet" data-image="../assets/images/825322832_17969456319159976_1810931646784154727_n..webp" aria-label="Lihat bouquet bunga segar">
+                    <img src="../assets/images/825322832_17969456319159976_1810931646784154727_n..webp" alt="Bouquet bunga segar">
+                </button>
+                <button class="gallery-item" type="button" data-category="flowers-box custom" data-image="../assets/images/822571986_17969176068159976_3998663132554218369_n..webp" aria-label="Lihat flowers box custom">
+                    <img src="../assets/images/822571986_17969176068159976_3998663132554218369_n..webp" alt="Flowers box custom">
+                </button>
+                <button class="gallery-item" type="button" data-category="wedding" data-image="../assets/images/822276347_17969178474159976_928170319586575313_n..webp" aria-label="Lihat dekorasi bunga pernikahan">
+                    <img src="../assets/images/822276347_17969178474159976_928170319586575313_n..webp" alt="Dekorasi bunga pernikahan">
+                </button>
+                <button class="gallery-item" type="button" data-category="graduation bouquet" data-image="../assets/images/821699002_17969178333159976_979042497572592379_n..webp" aria-label="Lihat bouquet kelulusan">
+                    <img src="../assets/images/821699002_17969178333159976_979042497572592379_n..webp" alt="Bouquet kelulusan">
+                </button>
+                <button class="gallery-item" type="button" data-category="custom" data-image="../assets/images/821686125_17969175132159976_1351221194990491908_n..webp" aria-label="Lihat pesanan bunga custom">
+                    <img src="../assets/images/821686125_17969175132159976_1351221194990491908_n..webp" alt="Pesanan bunga custom">
+                </button>
+                <button class="gallery-item" type="button" data-category="flowers-box" data-image="../assets/images/821051650_17969178165159976_7534207750597866657_n..webp" aria-label="Lihat flowers box">
+                    <img src="../assets/images/821051650_17969178165159976_7534207750597866657_n..webp" alt="Flowers box">
+                </button>
+            </div>
+
+            <nav class="gallery-pagination" aria-label="Pagination gallery">
+                <button type="button" class="gallery-page-control" data-page-action="previous" aria-label="Halaman sebelumnya">&lt;</button>
+                <button type="button" class="gallery-page active" data-page="1" aria-current="page">1</button>
+                <button type="button" class="gallery-page" data-page="2">2</button>
+                <button type="button" class="gallery-page" data-page="3">3</button>
+                <span class="gallery-ellipsis" aria-hidden="true">...</span>
+                <button type="button" class="gallery-page" data-page="8">8</button>
+                <button type="button" class="gallery-page-control" data-page-action="next" aria-label="Halaman berikutnya">&gt;</button>
+            </nav>
+        </div>
+
+        <dialog class="gallery-lightbox" aria-label="Preview foto gallery">
+            <button class="gallery-lightbox-close" type="button" aria-label="Tutup preview">&times;</button>
+            <img src="" alt="">
+        </dialog>
+    </section>
+
+    <script src="../js/gallery.js"></script>
+</body>
+</html>
