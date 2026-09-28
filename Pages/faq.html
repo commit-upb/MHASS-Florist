@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/faq.css">
+
     <title>FAQ | MHAS Florist</title>
 </head>
 <body>
@@ -38,10 +41,149 @@
 
     </header>
 
-    <section class="faq" id="faq">
-        
-    </section>
-    <footer class="footer">
+    <main class="faq">
+
+        <section class="faq-heading">
+
+            <p class="faq-label">FAQ</p>
+
+            <h1 class="faq-title">Before You Order</h1>
+
+            <div class="faq-line"></div>
+
+            <p class="faq-description">
+                Belum menemukan jawaban? Hubungi kami dan kita bicarakan.
+            </p>
+
+        </section>
+
+            <div class="faq-item">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span>Apakah bisa request rangkaian custom?</span>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Bisa. Ceritakan warna, ukuran, dan suasana
+                        rangkaian yang kamu inginkan melalui WhatsApp.
+                        Kami akan membantu menyesuaikannya dengan
+                        kebutuhanmu.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span>Bagaimana cara memesan bunga?</span>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Kamu bisa menghubungi kami melalui WhatsApp
+                        untuk memilih rangkaian bunga, menyampaikan
+                        detail pesanan, dan mengonfirmasi pemesanan.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span>Apakah bisa memilih warna dan jenis bunga?</span>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Kamu dapat menyampaikan pilihan warna dan
+                        jenis bunga yang diinginkan. Ketersediaan
+                        bunga akan kami konfirmasikan saat pemesanan.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span>Apakah melayani pengiriman bunga?</span>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Silakan hubungi kami untuk menanyakan
+                        ketersediaan layanan pengiriman, area tujuan,
+                        serta biaya pengiriman sesuai lokasi.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="faq-item">
+
+                <button
+                    class="faq-question"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span>Berapa lama proses pembuatan rangkaian?</span>
+                    <span class="faq-icon" aria-hidden="true">+</span>
+                </button>
+
+                <div class="faq-answer" hidden>
+                    <p>
+                        Waktu pengerjaan menyesuaikan jenis rangkaian
+                        dan tingkat kerumitan pesanan. Hubungi kami
+                        terlebih dahulu untuk memastikan waktu
+                        pengerjaan yang tersedia.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="faq-contact">
+
+            <p>Masih punya pertanyaan?</p>
+
+            <a
+                href="https://api.whatsapp.com/send/?phone=%2B6289510574048&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-whatsapp"
+            >
+                <img src="../assets/icons/WhatsApp.png" alt="WhatsApp">
+                <span>Chat on WhatsApp</span>
+                <span class="contact-whatsapp-arrow">↗</span>
+            </a>
+
+        </section>
+
+<footer class="footer">
         <div class="footer-container">
             <div class="footer-brand">
                 <img src="../assets/logo/MHAS Florist footer.png" alt="MHAS Florist Logo">
@@ -75,8 +217,6 @@
                 </div>
             </div>
 
-            <div class="footer-line"></div>
-            
             <div class="footer-column">
                 <h3>Navigation</h3>
 
@@ -131,6 +271,7 @@
         </div>
     </footer>
 
+    <script src="../js/faq.js"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>
