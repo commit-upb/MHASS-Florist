@@ -8,8 +8,8 @@
 
 .faq-container {
     width: 100%;
-    max-width: 1070px;
-    margin: 0 auto;
+    max-width: 2000px;
+    height: 700px;
 }
 
 .faq-label {
@@ -48,7 +48,7 @@
 
 .faq-list {
     width: 100%;
-    max-width: 850px;
+    max-width: 1111px;
     margin: 0 auto;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .faq-contact p {
-    margin: 0 0 10px;
+    margin: 60px 0 10px;
 }
 
 .faq-contact .contact-whatsapp {

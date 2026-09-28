@@ -1,18 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const faqItems = document.querySelectorAll(".faq-item");
+document.addEventListener("click", function (event) {
 
-    faqItems.forEach(function (item) {
-        const question = item.querySelector(".faq-question");
-        const answer = item.querySelector(".faq-answer");
-        const icon = item.querySelector(".faq-icon");
+    const question = event.target.closest(".faq-question");
 
-        question.addEventListener("click", function () {
-            const isOpen = question.getAttribute("aria-expanded") === "true";
+    if (!question) return;
 
-            question.setAttribute("aria-expanded", !isOpen);
-            answer.hidden = isOpen;
+    const item = question.closest(".faq-item");
+    const answer = item.querySelector(".faq-answer");
+    const icon = item.querySelector(".faq-icon");
 
-            icon.textContent = isOpen ? "+" : "×";
-        });
-    });
+    const isOpen =
+        question.getAttribute("aria-expanded") === "true";
+
+    question.setAttribute(
+        "aria-expanded",
+        String(!isOpen)
+    );
+
+    answer.hidden = isOpen;
+
+    icon.textContent = isOpen ? "+" : "×";
 });

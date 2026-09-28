@@ -21,7 +21,7 @@
             backdrop.classList.remove('open');
             drawer.setAttribute('aria-hidden', 'true');
             toggle.setAttribute('aria-expanded', 'false');
-            document.body.classList.remove('cart-open');
+            toggle.classList.remove('active');
         };
 
         const openCart = () => {
@@ -29,7 +29,7 @@
             backdrop.classList.add('open');
             drawer.setAttribute('aria-hidden', 'false');
             toggle.setAttribute('aria-expanded', 'true');
-            document.body.classList.add('cart-open');
+            toggle.classList.add('active');
             closeButton.focus();
         };
 
