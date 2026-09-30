@@ -1693,7 +1693,7 @@ body {
         top: auto;
         right: auto;
         left: 10px;
-        width: 350px;
+        width: 290px;
         height: 100px;
         margin-top: 10px;
         border-radius: 6px;
@@ -1713,7 +1713,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding-left: 20px;
+        padding-left: 10px;
         box-sizing: border-box;
     }
 
@@ -1764,7 +1764,7 @@ body {
     .reviews-divider {
         position: absolute;
         top: 14px;
-        left: 46.5%;
+        left: 43%;
         width: 1px;
         height: 75px;
     }
@@ -1772,7 +1772,7 @@ body {
     .reviews-breakdown {
         position: absolute;
         top: 50%;
-        left: calc(45% + 20px);
+        left: calc(40% + 20px);
         display: flex;
         flex-direction: column;
         gap: 1px;
@@ -1801,7 +1801,7 @@ body {
     }
 
     .rating-bar {
-        width: 120px;
+        width: 105px;
         height: 9px;
         margin-left: 5px;
         border: 1.5px solid #2E67A9;
